@@ -8,11 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'gray-mac': '#dddddd',
+        'blue-ukraine': '#0057b7',
+        'yellow-ukraine': '#ffdd00',
       },
+    },
+    fontFamily: {
+      chicago: ["Chicago", "sans-serif" ],
     },
   },
   plugins: [],
