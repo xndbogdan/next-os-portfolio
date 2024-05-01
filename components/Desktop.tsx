@@ -299,7 +299,10 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <span className='text-xs'>Linkedin</span>
                                       </a>
                                   </div>
-                                  <a className='text-sm hover:text-blue-ukraine' href='https://helpukraine.center/' target="_blank" rel="noreferrer">Donate to HELP<span className='text-red-600'>UKRAINE</span>.CENTER <img alt='Ukraine flag' className='w-6 h-4 inline' src="/img/ukraine.svg"/> </a>
+                                  <a className='text-sm hover:text-blue-ukraine' href='https://helpukraine.center/' target="_blank" rel="noreferrer">
+                                    Donate to HELP<span className='text-red-600'>UKRAINE</span>.CENTER&nbsp;
+                                    <Image alt='Ukraine flag' className='w-6 h-4 inline' src="/img/ukraine.svg" width="24" height="16"/> 
+                                  </a>
                               </div>
                           </div>
                       </Draggable>
@@ -338,7 +341,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                   <div className='py-1 px-2 text-xs border-gray-500 border-r cursor-point bg-gray-400'>Resume.rtf</div>
                                   <div className='flex justify-end flex-1'>
                                       <a href='/resume' target='_blank' className="flex flex-row px-2 py-1 text-xs border-l border-gray-600 cursor-grab cursor-point hover:bg-gray-200">
-                                          <img alt="link" className='w-auto h-4 mr-2' src='/img/link.svg'></img>
+                                          <Image alt="link" className='w-auto h-4 mr-2' src='/img/link.svg' width="12" height="16" />
                                           <span>Open in new tab</span>
                                       </a>
                                   </div>
