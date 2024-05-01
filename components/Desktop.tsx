@@ -278,7 +278,6 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                   <div className="ml-2 text-xs handle cursor-grab">NEXT OS</div>
                               </div>
                               <div className="p-2 overflow-y-auto text-sm bg-white border border-black select-full">
-                                  <p><span className='font-bold text-red-600'>! </span>Remix OS is transitioning to Next OS</p>
                                   <p className='mt-4'>I'm Bogdan, an independent full-stack developer from Bucharest.</p>
                                   <p>Big fan of Laravel, Vue and Tailwind.</p>
                                   <p className="mt-4">This project was originally made with Remix but has since transitioned to Next.</p>
