@@ -278,10 +278,10 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                   <div className="ml-2 text-xs handle cursor-grab">NEXT OS</div>
                               </div>
                               <div className="p-2 overflow-y-auto text-sm bg-white border border-black select-full">
-                                  <p><span className='font-bold text-red-600'>!</span>Remix OS is transitioning to Next OS</p>
+                                  <p><span className='font-bold text-red-600'>! </span>Remix OS is transitioning to Next OS</p>
                                   <p className='mt-4'>I'm Bogdan, an independent full-stack developer from Bucharest.</p>
                                   <p>Big fan of Laravel, Vue and Tailwind.</p>
-                                  <p className="mt-4">This project was made using Remix - it's a React meta-framework.</p>
+                                  <p className="mt-4">This project was originally made with Remix but has since transitioned to Next.</p>
                                   <p className="mt-2">You should try moving the windows around and playing some music. Maybe fax me your music playlist while you're at it.</p>
                                   <p className="mt-2">Close this window or move it lower if you are on a mobile device, there are desktop icons under it that you can click to find more about me or listen to some sweet music.</p>
                                   <p className='mt-2'>For business inqueries contact me on <a className='text-blue-700' target='_blank' href='mailto:bogdan.mosteanu@hey.com' rel="noreferrer">bogdan.mosteanu@hey.com</a></p>
