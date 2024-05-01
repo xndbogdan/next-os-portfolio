@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     "business inquiries",
     "bogdan.mosteanu@hey.com"
   ],
+  metadataBase: new URL("https://nextos.dev"),
 };
 
 export default function RootLayout({
