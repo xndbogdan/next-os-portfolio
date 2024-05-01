@@ -278,7 +278,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                   <div className="ml-2 text-xs handle cursor-grab">NEXT OS</div>
                               </div>
                               <div className="p-2 overflow-y-auto text-sm bg-white border border-black select-full">
-                                  <p className='mt-4'>I'm Bogdan, an independent full-stack developer from Bucharest.</p>
+                                  <p>I'm Bogdan, an independent full-stack developer from Bucharest.</p>
                                   <p>Big fan of Laravel, Vue and Tailwind.</p>
                                   <p className="mt-4">This project was originally made with Remix but has since transitioned to Next.</p>
                                   <p className="mt-2">You should try moving the windows around and playing some music. Maybe fax me your music playlist while you're at it.</p>
