@@ -38,6 +38,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
   const [usedMemory, setUsedMemory] = useState("0 MB");
   const iconTimeout = useRef<NodeJS.Timeout>();
   let memoryInterval: NodeJS.Timeout;
+  const windowTitle = 'NEXT OS';
 
   const findParentWindow = (event: MouseEvent) => {
     if (!(event.target instanceof Element)) {
@@ -192,7 +193,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
             className={ menu ? "flex flex-row items-center py-1 text-xs border-r border-black cursor-point bg-gray-400 px-2" : "flex flex-row items-center py-1 text-xs border-r border-black cursor-point px-2 hover:bg-black hover:text-white group"} 
             onMouseDown={ () => { setMenu(!menu) } }
           >
-              <span>Next OS</span>
+              <span>{windowTitle}</span>
               <Image className="inline ml-1 group-hover:invert w-1" src="/img/arrow-down.png" height="5" width="3" alt='arrow down'/>
           </div>
           <div className="flex-1 py-1"></div>
@@ -275,7 +276,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <div className="border-t border-black"></div>
                                       </div>
                                   </div>
-                                  <div className="ml-2 text-xs handle cursor-grab">NEXT OS</div>
+                                  <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
                               <div className="p-2 overflow-y-auto text-sm bg-white border border-black select-full">
                                   <p>I'm Bogdan, an independent full-stack developer from Bucharest.</p>
@@ -318,7 +319,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <div className="border-t border-black"></div>
                                       </div>
                                   </div>
-                                  <div className="ml-2 text-xs handle cursor-grab">Next OS</div>
+                                  <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
                               <MusicPlayer tracklist={props.tracklist} closed={windows[1].closed}/>
                           </div>
@@ -335,7 +336,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <div className="border-t border-black"></div>
                                       </div>
                                   </div>
-                                  <div className="ml-2 text-xs handle cursor-grab">Next OS</div>
+                                  <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
                               <div className="flex flex-wrap justify-start border border-gray-500 bg-gray-mac">
                                   <div className='py-1 px-2 text-xs border-gray-500 border-r cursor-point bg-gray-400'>Resume.rtf</div>
@@ -363,7 +364,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <div className="border-t border-black"></div>
                                       </div>
                                   </div>
-                                  <div className="ml-2 text-xs handle cursor-grab">Next OS</div>
+                                  <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
                               <div className="p-2 overflow-y-auto bordertext-sm">
                                   <Collaborate />
@@ -382,11 +383,13 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <div className="border-t border-black"></div>
                                       </div>
                                   </div>
-                                  <div className="ml-2 text-xs handle cursor-grab">Next OS</div>
+                                  <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
                               <div className="p-2 overflow-y-auto text-sm bg-white border border-black max-h-80 select-full">
                                   <p className="mb-2 text-lg">Credits</p>
                                   <p><a target="_blank" href="https://remix.run" className="text-blue-700 hover:text-blue-800" rel="noreferrer">• Remix framework</a>, for making this project possible.</p>
+                                  <p><a target="_blank" href="https://nextjs.org" className="text-blue-700 hover:text-blue-800" rel="noreferrer">• Next.js framework</a>, for carrying the torch.</p>
+                                  <p><a target='_blank' href='https://tailwindcss.com/' className="text-blue-700 hover:text-blue-800" rel="noreferrer">• Tailwind CSS</a>, for making the design process a breeze.</p>
                                   <p><a target="_blank" href="https://poolsuite.net/" className="text-blue-700 hover:text-blue-800" rel="noreferrer">• Poolsuite</a>, for inspiring this project's design and providing awesome music playlists.</p>
                               </div>
                           </div>
@@ -403,7 +406,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <div className="border-t border-black"></div>
                                       </div>
                                   </div>
-                                  <div className="ml-2 text-xs handle cursor-grab">Next OS</div>
+                                  <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
                               <div className="p-2 overflow-y-auto text-sm bg-white border border-black max-h-80 select-full">
                                   <p className="mb-2 text-lg">Project milestones</p>
@@ -413,7 +416,9 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                   <p className="text-gray-800"><span className='text-red-500 font-bold'>-</span> Let the user change the music player's playlist - Cancelled as there are enough songs</p>
                                   <p className="text-gray-800"><span className="text-green-500">✓</span> Let the user close windows, and reopen them through the desktop icons</p>
                                   <p className="text-gray-800"><span className="text-green-500">✓</span> Let the user minimize windows to an applications dock</p>
+                                  <p className="text-gray-800"><span className='text-yellow-500'>~</span> Fully port the app from remix to next (for now it's 'use client'; everywhere)</p>
                                   <p className="mt-4 mb-2 text-lg">Changelog</p>
+                                  <p className="text-blue-700 hover:text-blue-800">• 01/05/2024 - Ported Remix OS to Next.js.</p>
                                   <p className="text-blue-700 hover:text-blue-800">• 18/09/2022 - Desktop dock.</p>
                                   <p>You now have an app dock. You can thank me on Twitter.</p>
                                   <p className="text-blue-700 hover:text-blue-800">• 15/09/2022 - Music player goodness.</p>
@@ -448,9 +453,9 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <div className="border-t border-black"></div>
                                       </div>
                                   </div>
-                                  <div className="ml-2 text-xs handle cursor-grab">Next OS</div>
+                                  <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
-                              <div className="px-2 py-4 overflow-y-auto text-sm bg-white border border-black max-h-80 select-full flex justify-center">
+                              <div className="px-2 py-4 overflow-y-auto overflow-x-hidden text-sm bg-white border border-black max-h-80 select-full flex justify-center">
                                   <div
                                     className="stack"
                                     style={{'--stacks': 3, 'minHeight': '3.5rem'} as React.CSSProperties}
@@ -468,7 +473,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                       <p>Used Memory: { usedMemory }</p>
                                   </div>
                                   <div className="w-full md:w-1/2 md:pl-1">
-                                      <p>Next Rom 0.1 Alpha</p>
+                                      <p>Next Rom 0.2 Alpha</p>
                                       
                                   </div>
                               </div>
