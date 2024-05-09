@@ -197,8 +197,12 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
               <Image className="inline ml-1 group-hover:invert w-1" src="/img/arrow-down.png" height="5" width="3" alt='arrow down'/>
           </div>
           <div className="flex-1 py-1"></div>
-          <div className="py-1 pl-2 text-xs border-l border-black pr-2"><Clock /></div>
-          <div className="hidden py-1 pl-2 text-xs border-l border-black sm:block pr-2"><Calendar /></div>
+          <div className="py-1 pl-2 text-xs border-l border-black pr-2">
+            <Clock />
+          </div>
+          <div className="hidden py-1 pl-2 text-xs border-l border-black sm:block pr-2">
+            <Calendar />
+          </div>
       </div>
       <div id="dropdown" className={ menu ? 'z-10 w-44 bg-gray-mac shadow-mac-os absolute' : 'hidden' }>
           <ul className="text-xs" aria-labelledby="dropdownDefault">
