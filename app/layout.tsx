@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-const defaultStyles = `select-none cursor-default overflow-hidden bg-tile-3 text-black`;
+const defaultStyles = ``;
 export const metadata: Metadata = {
   title: "Next OS - My Portfolio",
   description: "My web development portfolio",

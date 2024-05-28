@@ -1,7 +1,7 @@
-import { ResumeSection } from "@/components/ResumeSection";
+import { Resume } from "@/components/Resume";
 
-export default function Resume() {
+export default function ResumePage() {
   return (
-    <ResumeSection/>
+    <Resume/>
   );
 }

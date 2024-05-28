@@ -15,7 +15,8 @@ const config: Config = {
       },
     },
     fontFamily: {
-      chicago: ["Chicago", "sans-serif" ],
+      'chicago': ["Chicago" ],
+      'sans': ["Helvetica", "Arial"],
     },
   },
   plugins: [],
