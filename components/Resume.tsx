@@ -24,6 +24,7 @@ export const Resume = () => {
             <div className='mt-4'>
               <h2 className='text-xl font-bold mb-2'>Contact</h2>
               <p><span>Name: </span>Bogdan-Mihai Mosteanu</p>
+              <p><span>Website: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://nextos.dev'>https://nextos.dev</a></p>
               <p><span>Github: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://github.com/xndbogdan'>https://github.com/xndbogdan</a></p>
               <p><span>LinkedIn: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://www.linkedin.com/in/bogdan-mihai-mo%C8%99teanu-476262120/'>https://www.linkedin.com/in/bogdan-mihai-mo%C8%99teanu-476262120/</a></p>
               <p><span>E-Mail: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='mailto:bogdan.mosteanu@hey.com'>bogdan.mosteanu@hey.com</a></p>
