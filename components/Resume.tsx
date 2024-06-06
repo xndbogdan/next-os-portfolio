@@ -130,6 +130,14 @@ export const Resume = () => {
             <p>Frontend: I've used mostly vue 2, but also angular. As for CSS frameworks, I've used custom CSS, Bootstrap 4 & TailwindCSS</p>
           </div>
         </div>
+        <p className='text-xl font-bold mt-4'>Projects</p>
+
+        <p className='mt-2'>
+          <a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://bogdanmihai.gumroad.com/l/procreate-thumbnail-handler'>► Procreate Thumbnail Handler </a>
+            - Windows DLL
+        </p>
+        <p className='ml-4'>Do you store your Procreate projects on your Windows computer and wish you could see their thumbnails?</p>
+        <p className='ml-4'>This tool solves that issue!</p>
 
         <p className='text-xl font-bold mt-4'>Open Source Projects</p>
         
