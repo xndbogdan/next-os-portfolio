@@ -10,7 +10,7 @@ export const Resume = () => {
           <div className='px-4 py-2 rounded w-full text-black'>
             <p className='text-xl font-bold'>Bio</p>
             
-            <p className='mt-2'>Hobbyist composer from Bucharest with over 5 years of experience in full stack web development. 
+            <p className='mt-2'>Hobbyist composer from Bucharest with over 6 years of experience in full stack web development. 
               Driven and eager to learn more.<br/><br/>
               I'm always up for new challenges and I'm a good communicator.
             </p>
