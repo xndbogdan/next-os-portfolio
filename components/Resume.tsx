@@ -33,7 +33,7 @@ export const Resume = () => {
               <p><span>Name: </span>Bogdan-Mihai Mosteanu</p>
               <p><span>Website: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://nextos.dev'>https://nextos.dev</a></p>
               <p><span>Github: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://github.com/xndbogdan'>https://github.com/xndbogdan</a></p>
-              <p><span>LinkedIn: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://www.linkedin.com/in/bogdan-mihai-mo%C8%99teanu-476262120/'>https://www.linkedin.com/in/bogdan-mihai-mo%C8%99teanu-476262120/</a></p>
+              <p><span>LinkedIn: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://www.linkedin.com/in/bogdan-mihai-mosteanu-476262120/'>https://www.linkedin.com/in/bogdan-mihai-mo%C8%99teanu-476262120/</a></p>
               <p><span>E-Mail: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='mailto:bogdan.mosteanu@hey.com'>bogdan.mosteanu@hey.com</a></p>
               <p><span>Phone Number: </span><a className='text-orange-700 hover:text-orange-800' target='_blank' href='tel:+40723400149'>+40723400149</a></p>
             </div>

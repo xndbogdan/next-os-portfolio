@@ -299,7 +299,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                           <Image src="/icons/github.png" className="w-10 h-10 mx-auto pointer-events-none" width="240" height="240" alt="Github Link"/>
                                           <span className='text-xs'>Github</span>
                                       </a>
-                                      <a target="_blank" href="https://www.linkedin.com/in/bogdan-mihai-mo%C8%99teanu-476262120/" className="flex flex-col items-center" rel="noreferrer">
+                                      <a target="_blank" href="https://www.linkedin.com/in/bogdan-mihai-mosteanu-476262120/" className="flex flex-col items-center" rel="noreferrer">
                                           <Image src="/icons/linkedin.png" className="w-10 h-10 mx-auto pointer-events-none" width="240" height="240" alt="LinkedIn Link"/>
                                           <span className='text-xs'>Linkedin</span>
                                       </a>
