@@ -9,14 +9,21 @@ export const Resume = () => {
         <div className='w-full px-4 flex items-stretch'>
           <div className='px-4 py-2 rounded w-full text-black'>
             <p className='text-xl font-bold'>Bio</p>
-            
-            <p className='mt-2'>Hobbyist composer from Bucharest with over 6 years of experience in full stack web development. 
-              Driven and eager to learn more.<br/><br/>
-              I'm always up for new challenges and I'm a good communicator.
-            </p>
-            <p className='mt-2'>
-              I have experience mentoring junior developers and I'm always happy to help others.<br/>
-              Strong capacity to work independently & experienced with architecting web projects for optimal performance and scalability.
+            <p className='pt-2'>
+              As a Full Stack Developer with over 6 years of experience, I have a proven track record of delivering satisfying work for my clients.<br></br>
+              The bulk of my expertise lies in Laravel, Vue, and their ecosystem, along with experience in React and Next.js.<br></br><br></br>
+              I've worked on real-time auctioning software, a platform for musicians to build portfolios and track engagement helping them increase their hiring opportunities, and a metadata catalog for movie studios to maintain a single source of truth.<br></br>
+              <br></br>
+              I’m an effective communicator and a team player with a strong capacity to work independently.<br></br>
+              I always try to see the projects I’m working on from the user's perspective, ensuring their interaction with the interface is smooth and user-friendly.<br></br>
+              <br></br>
+              In my free time, I work on personal projects that reflect my passion for technology and innovation. These include a Procreate Thumbnail Handler for Windows and a text color plugin for Statamic's WYSIWYG editor.<br></br>
+              <br></br>
+              Many of my projects are open-source, allowing me to give back to the developer community that has supported my growth. My personal website, built with Next.js, showcases my hands-on experience with the latest technologies:<br></br>
+              <a className='text-orange-700 hover:text-orange-800' target='_blank' href='https://nextos.dev'>https://nextos.dev</a><br></br>
+              <br></br>
+              I’m ready to bring my skills, creativity, and passion to challenging projects that require technical proficiency and a love for tinkering.<br></br>
+              I'm also a hobbyist composer with a love for sci-fi movies and video games, always dreaming of the 90s.
             </p>
             <h2 className='text-xl mt-5 font-bold mb-2'>Technical Skills</h2>
             <p>Node.js · PHP · Javascript · TypeScript · CSS · TailwindCSS · MySql · PostgreSQL · Laravel · Vue · SST · AWS Lambda · GraphQL · Amazon Web Services (AWS) · WebRTC · Sockets · ElasticSearch · Bootstrap · Vuetify · Python</p>
