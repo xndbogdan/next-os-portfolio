@@ -40,7 +40,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${defaultStyles}`}>{children}</body>
+      <body className={`${inter.className} ${defaultStyles}`}>
+        {children}
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "267f5874766e4d1b960a1ce9183bc200"}'></script>
+      </body>
     </html>
   );
 }
