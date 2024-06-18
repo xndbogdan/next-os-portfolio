@@ -43,6 +43,12 @@ export const nextFM: Tracklist = [
     permalink_url: "https://open.spotify.com/track/1YPxUUih6iIQsCshtPkv2L?si=f0e13a74db3e497b",
   },
   {
+    title: "ur unusual",
+    artist: "Atticus Rush",
+    audio_url: "ur-unusual",
+    permalink_url: "https://open.spotify.com/track/740Knt7xv58YtiatpinobO?si=c8339242314049e9",
+  },
+  {
     title: "Lucky",
     artist: "Bad Snacks",
     audio_url: "lucky",
@@ -53,6 +59,12 @@ export const nextFM: Tracklist = [
     artist: "Junior Jack, Jolyon Petch",
     audio_url: "stupidisco-jolyon-petch-remix",
     permalink_url: "https://open.spotify.com/track/111c0efjmif2O3SKjrQgYL?si=28c5d40dc8114aba",
+  },
+  {
+    title: "Hang Up",
+    artist: "WRLD, Savoi",
+    audio_url: "hang-up",
+    permalink_url: "https://open.spotify.com/track/1F65NjLm6OQIpuiwGMAdBf?si=c5474c6abd14488e",
   },
   {
     title: "Love Taste",
@@ -89,6 +101,12 @@ export const nextFM: Tracklist = [
     artist: "k?d",
     audio_url: "3KsCzAhEXJKtuWdV9",
     permalink_url: "https://soundcloud.com/whoskid/kd-three-in-the-morning-ft-cecilia-gault"
+  },
+  {
+    title: "About It (JNATHYN remix)",
+    artist: "Jnathyn, colorcase, Your Neighbors",
+    audio_url: "about-it-jnathyn-remix",
+    permalink_url: "https://open.spotify.com/track/6iYvh43Gt2rxOYkLPsvUhj?si=280b050f9a9b479d",
   },
   {
     title: "Ready To Fly - Spencer Ramsay Bounce Edit",
