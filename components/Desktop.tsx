@@ -7,11 +7,10 @@ import { Collaborate } from '@/components/Collaborate';
 import { Clock } from '@/components/Clock';
 import { Calendar } from '@/components/Calendar';
 import { Resume } from '@/components/Resume';
-import type { Tracklist } from '@/lib/types';
 import Image from 'next/image';
 import { appIcons } from '@/lib/icons';
 
-export const Desktop = (props: {tracklist: Tracklist}) => {
+export const Desktop = (props: {}) => {
   const [windows, setWindows] = useState([
     { focused: false, closed: false, minimized: false },
     { focused: false, closed: true, minimized: false },
@@ -325,7 +324,7 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                   </div>
                                   <div className="ml-2 text-xs handle cursor-grab pr-1">{windowTitle}</div>
                               </div>
-                              <MusicPlayer tracklist={props.tracklist} closed={windows[1].closed}/>
+                              <MusicPlayer closed={windows[1].closed}/>
                           </div>
                       </Draggable>
                       <Draggable handle=".handle" onMouseDown={toggleWindowVisibility}>
@@ -417,11 +416,12 @@ export const Desktop = (props: {tracklist: Tracklist}) => {
                                   <p className="text-gray-800"><span className="text-green-500">✓</span> Replace Poolsuite api calls with internal calls</p>
                                   <p className="text-gray-800"><span className="text-green-500">✓</span> Let the user move the windows around</p>
                                   <p className="text-gray-800"><span className="text-green-500">✓</span> Fix window z-index when user focuses said window</p>
-                                  <p className="text-gray-800"><span className='text-red-500 font-bold'>-</span> Let the user change the music player's playlist - Cancelled as there are enough songs</p>
+                                  <p className="text-gray-800"><span className='text-green-500'>✓</span> Let the user change the music player's playlist</p>
                                   <p className="text-gray-800"><span className="text-green-500">✓</span> Let the user close windows, and reopen them through the desktop icons</p>
                                   <p className="text-gray-800"><span className="text-green-500">✓</span> Let the user minimize windows to an applications dock</p>
                                   <p className="text-gray-800"><span className='text-yellow-500'>~</span> Fully port the app from remix to next (for now it's 'use client'; everywhere)</p>
                                   <p className="mt-4 mb-2 text-lg">Changelog</p>
+                                  <p className="text-blue-700 hover:text-blue-800">• 18/06/2024 - Launched Next FM.</p>
                                   <p className="text-blue-700 hover:text-blue-800">• 01/05/2024 - Ported Remix OS to Next.js.</p>
                                   <p className="text-blue-700 hover:text-blue-800">• 18/09/2022 - Desktop dock.</p>
                                   <p>You now have an app dock. You can thank me on Twitter.</p>

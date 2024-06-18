@@ -2,17 +2,37 @@
 
 import { useRef, useState, useEffect } from 'react';
 import AudioSpectrum from './Shared/AudioSpectrum';
-import type { Tracklist } from '@/lib/types';
+import type { Tracklist, Playlist, Track } from "@/lib/types";
+import { tracklist, nextFM } from '@/lib/tracklist';
+import Image from 'next/image';
 
-export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) => {
+const shuffledTracklist: Tracklist = tracklist.sort((a, b) => 0.5 - Math.random());
+
+export const MusicPlayer = (props: { closed: boolean }) => {
   const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
   const randomTrackIndex = 0;
   const musicApiEndpoint = process.env.NEXT_PUBLIC_TRACKLIST_ENDPOINT;
 
-  const [selectedPlaylist] = useState(props.tracklist);
-  const [selectedPlaylistLength] = useState(props.tracklist.length);
+  const playlists: Playlist[] = [
+    { 
+      id: 1,
+      name: 'Poolsuite FM',
+      tracks: shuffledTracklist
+    },
+    {
+      id: 2,
+      name: 'Next FM',
+      tracks: nextFM
+    }
+  ];
+  const savedPlaylistId = localStorage.getItem('playlist-id');
+  const savedPlaylist: Playlist = savedPlaylistId ? playlists.find((playlist) => playlist.id === parseInt(savedPlaylistId))! : playlists[0];
+  const [menu, setMenu] = useState(false);
+  const [selectedPlaylist, setSelectedPlaylist] = useState(savedPlaylist);
+  const [selectedPlaylistLength, setSelectedPlaylistLength] = useState(selectedPlaylist?.tracks.length);
   const [trackIndex, setTrackIndex] = useState(randomTrackIndex);
-  const [selectedTrack, setSelectedTrack] = useState(props.tracklist[0]);
+  const [selectedTrack, setSelectedTrack] = useState(selectedPlaylist.tracks[trackIndex]);
+
   const [display, setDisplay] = useState('Player Offline');
   const [isPlaying, setIsPlaying] = useState(false);
   const [trackProgress, setTrackProgress] = useState("0%");
@@ -25,7 +45,7 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
   const displayTextContainer = useRef<HTMLDivElement>(null);
   const progressBar = useRef<HTMLDivElement>(null);
   const progressBarContainer = useRef<HTMLDivElement>(null);
-  const previousWaveformUrl = useRef<string>(selectedTrack.waveform_url);
+  const previousWaveformUrl = useRef<string>((selectedTrack.audio_url || selectedTrack.waveform_url)!);
   
   const updateTrackProgress = (event: React.ChangeEvent<HTMLAudioElement>) => {
     if (props.closed) {
@@ -55,27 +75,29 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
   const convertDuration = (time: number) => {
     let mins = Math.floor(time / 60);
     let secs = Math.floor(time % 60);
-    // if (mins < 10) {
-    //   mins = '0' + String(mins);
-    // }
-    // if (secs < 10) {
-    //   secs = '0' + String(secs);
-    // }
     let returnResult = mins < 10 ? '0' + String(mins) : String(mins);
     returnResult += ':';
     returnResult += secs < 10 ? '0' + String(secs) : String(secs);
     return returnResult;
   };
 
+  const getTrackUrl = (selectedTrack: Track) => {
+    if (selectedPlaylist.id === 1) {
+      return musicApiEndpoint + selectedTrack.waveform_url!.split('/')[3].replace('_m.png', '');
+    }
+    return musicApiEndpoint + selectedTrack.audio_url!;
+  }
+
   const togglePlay = () => {
     if (!audio.current) {
       return;
     }
-    if (audio.current.src !== musicApiEndpoint + selectedTrack.waveform_url.split('/')[3].replace('_m.png', '')) {
-      audio.current.src = musicApiEndpoint + selectedTrack.waveform_url.split('/')[3].replace('_m.png', '');
+    if (audio.current.src !== getTrackUrl(selectedTrack)) {
+      audio.current.src = getTrackUrl(selectedTrack);
     }
     setIsPlaying(!isPlaying);
-    if (previousWaveformUrl.current !== selectedTrack.waveform_url && !isPlaying) {
+    const trackUrl = selectedTrack.waveform_url || selectedTrack.audio_url;
+    if (previousWaveformUrl.current !== trackUrl && !isPlaying) {
       return;
     }
     if (isPlaying) {
@@ -86,10 +108,10 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
   };
 
   const nextTrack = async () => {
-    if (trackIndex >= selectedPlaylist.length - 1) {
+    if (trackIndex >= selectedPlaylist.tracks.length - 1) {
       return;
     }
-    setSelectedTrack(selectedPlaylist[trackIndex + 1]);
+    setSelectedTrack(selectedPlaylist.tracks[trackIndex + 1]);
     setTrackIndex(trackIndex + 1);
   };
 
@@ -97,9 +119,28 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
     if (trackIndex <= 0) {
       return;
     }
-    setSelectedTrack(selectedPlaylist[trackIndex - 1]);
+    setSelectedTrack(selectedPlaylist.tracks[trackIndex - 1]);
     setTrackIndex(trackIndex - 1);
   };
+
+  const changePlaylist = (id: number) => {
+    setMenu(false);
+    if (selectedPlaylist.id === id) {
+      return;
+    }
+    const playlist = playlists.find((playlist) => playlist.id === id);
+    if (!playlist) {
+      return;
+    }
+    if (isPlaying) {
+      togglePlay();
+    }
+    localStorage.setItem('playlist-id', playlist.id.toString());
+    setSelectedPlaylist(playlist);
+    setSelectedPlaylistLength(playlist.tracks.length);
+    setSelectedTrack(playlist.tracks[0]);
+    setTrackIndex(0);
+  }
 
   useEffect(() => {
     if (typeof document !== 'undefined') {
@@ -133,8 +174,8 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
       if (!audio.current) {
         return;
       }
-      if (audio.current.src !== musicApiEndpoint + selectedTrack.waveform_url.split('/')[3].replace('_m.png', '')) {
-        audio.current.src = musicApiEndpoint + selectedTrack.waveform_url.split('/')[3].replace('_m.png', '');
+      if (audio.current.src !== getTrackUrl(selectedTrack)) {
+        audio.current.src = getTrackUrl(selectedTrack);
       }
       audio.current.pause();
     };
@@ -143,24 +184,22 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
       if (!audio.current) {
         return;
       }
-      if (audio.current.src !== musicApiEndpoint + selectedTrack.waveform_url.split('/')[3].replace('_m.png', '')) {
-        audio.current.src = musicApiEndpoint + selectedTrack.waveform_url.split('/')[3].replace('_m.png', '');
+      if (audio.current.src !== getTrackUrl(selectedTrack)) {
+        audio.current.src = getTrackUrl(selectedTrack);
       }
       audio.current.play();
     };
-    if (selectedTrack.waveform_url !== previousWaveformUrl.current) {
-      if (isPlaying) {
-        silentlyPause();
-      }
+    const trackUrl = selectedTrack.waveform_url || selectedTrack.audio_url;
+    if (trackUrl === previousWaveformUrl.current) {
+      previousWaveformUrl.current = trackUrl;
+    }
+    if (isPlaying) {
+      silentlyPause();
       sleep(100);
-      if (isPlaying) {
-        silentlyPlay();
-      }
-    } else {
-      previousWaveformUrl.current = selectedTrack.waveform_url;
+      silentlyPlay();
     }
     
-  }, [trackIndex, isPlaying, selectedTrack.waveform_url, musicApiEndpoint]);
+  }, [trackIndex, isPlaying, getTrackUrl, selectedTrack, selectedPlaylist.id]);
 
   return (
     <div className="px-2">
@@ -198,8 +237,29 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
           </div>
         </div>
       </div>
-
-      <p className="text-sm">Station: Poolsuite FM</p>
+      <div className='flex items-center py-1'>
+        <p className='text-sm'>Station:&nbsp;</p>
+        <div onMouseDown={ () => { setMenu(!menu) } } className={menu ? 'bg-gray-400 flex items-center px-1 cursor-pointer' : 'hover:invert bg-gray-mac flex items-center px-1 cursor-pointer'}>
+          <p className="text-sm">{selectedPlaylist.name}</p>
+          <Image className="inline ml-1 w-1" src="/img/arrow-down.png" height="5" width="3" alt='arrow down'/>
+        </div>
+        <div id="dropdown" className={ menu ? 'z-10 w-44 bg-gray-mac shadow-mac-os absolute mt-16 ml-16' : 'hidden' }>
+          <ul className="text-xs" aria-labelledby="dropdownDefault">
+              <li onMouseDown={changePlaylist.bind(null, 1)}>
+                  <span 
+                      className="block py-1 px-4 border-b border-black hover:text-white hover:bg-black cursor-pointer" 
+                  >Poolsuite FM</span>
+              </li>
+              <li onMouseDown={changePlaylist.bind(null, 2)}>
+                  <span 
+                      className="block py-1 px-4 border-b border-black hover:text-white hover:bg-black cursor-pointer" 
+                  >Next FM</span>
+              </li>
+          </ul>
+        </div>
+        
+      </div>
+      
       <div className="w-full h-2 bg-black cursor-point" ref={progressBarContainer} onMouseUp={updateSongPosition}>
         <div ref={progressBar} className="bg-blue-300 h-2 pointer-events-none" style={{ width: trackProgress }}></div>
       </div>
