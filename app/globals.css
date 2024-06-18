@@ -97,6 +97,10 @@ body {
   background-image: url('/img/background/poolside-fm-pacific-breeze.png');
 }
 
+.bg-tile-4 {
+  background-image: url('/img/background/poolside-fm-pacific-breeze-edited.png');
+}
+
 .os-window *::-webkit-scrollbar {
   width: 14px;
 
