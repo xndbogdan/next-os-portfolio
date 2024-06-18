@@ -55,6 +55,12 @@ export const nextFM: Tracklist = [
     permalink_url: "https://open.spotify.com/track/111c0efjmif2O3SKjrQgYL?si=28c5d40dc8114aba",
   },
   {
+    title: "Love Taste",
+    artist: "Moe Shop, Jamie Paige, Shiki-TMNS",
+    audio_url: "love-taste",
+    permalink_url:"https://open.spotify.com/track/0XVoD3TmJVEYdRzZoe0Ewy?si=df376bde4ad34971",
+  },
+  {
     title: "City Nights",
     artist: "DRYVE, FATHERDUDE",
     audio_url: "city-nights",
