@@ -166,7 +166,7 @@ export const MusicPlayer = (props: { tracklist: Tracklist, closed: boolean }) =>
     <div className="px-2">
       <div className='bg-gray-900 border-2 border-gray-600 my-2'>
         <div className=" h-8 text-blue-300 px-2 flex items-center" ref={displayTextContainer}>
-          <a target="_blank" href={selectedTrack.permalink_url} className="opacity-75 cursor-point truncate" ref={displayText} rel="noreferrer">
+          <a target="_blank" href={selectedTrack.permalink_url} className="opacity-75 cursor-pointer truncate" ref={displayText} rel="noreferrer">
             <span className='pr-16'>
               {display}
             </span>
