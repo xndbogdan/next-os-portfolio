@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect, useCallback } from 'react';
 import AudioSpectrum from './Shared/AudioSpectrum';
 import type { Tracklist, Playlist, Track } from "@/lib/types";
 import { tracklist, nextFM } from '@/lib/tracklist';
@@ -81,12 +81,15 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     return returnResult;
   };
 
-  const getTrackUrl = (selectedTrack: Track) => {
-    if (selectedPlaylist.id === 1) {
-      return musicApiEndpoint + selectedTrack.waveform_url!.split('/')[3].replace('_m.png', '');
-    }
-    return musicApiEndpoint + selectedTrack.audio_url!;
-  }
+  const getTrackUrl = useCallback(
+    (selectedTrack: Track) => {
+      if (selectedPlaylist.id === 1) {
+        return musicApiEndpoint + selectedTrack.waveform_url!.split('/')[3].replace('_m.png', '');
+      }
+      return musicApiEndpoint + selectedTrack.audio_url!;
+    },
+    [selectedPlaylist.id, musicApiEndpoint] // Add dependencies here
+  );
 
   const togglePlay = () => {
     if (!audio.current) {
