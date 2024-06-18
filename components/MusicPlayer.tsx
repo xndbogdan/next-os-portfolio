@@ -25,7 +25,7 @@ export const MusicPlayer = (props: { closed: boolean }) => {
       tracks: nextFM
     }
   ];
-  const savedPlaylistId = localStorage.getItem('playlist-id');
+  const savedPlaylistId = typeof window !== 'undefined' ? localStorage.getItem('playlist-id') : null;
   const savedPlaylist: Playlist = savedPlaylistId ? playlists.find((playlist) => playlist.id === parseInt(savedPlaylistId))! : playlists[0];
   const [menu, setMenu] = useState(false);
   const [selectedPlaylist, setSelectedPlaylist] = useState(savedPlaylist);
@@ -135,7 +135,9 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     if (isPlaying) {
       togglePlay();
     }
-    localStorage.setItem('playlist-id', playlist.id.toString());
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('playlist-id', playlist.id.toString());
+    }
     setSelectedPlaylist(playlist);
     setSelectedPlaylistLength(playlist.tracks.length);
     setSelectedTrack(playlist.tracks[0]);
