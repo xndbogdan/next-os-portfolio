@@ -116,6 +116,18 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     }
     setSelectedTrack(selectedPlaylist.tracks[trackIndex + 1]);
     setTrackIndex(trackIndex + 1);
+    console.log({
+      isPlaying,
+      paused: audio.current?.paused,
+      readyState: audio.current?.readyState,
+      ended: audio.current?.ended,
+    })
+    if (isPlaying && audio.current?.ended) {
+      // We need to wait for a bit and then make the audio player play (togglePlay?)
+      await sleep(200);
+      setIsPlaying(true);
+      audio.current?.play();
+    }
   };
 
   const previousTrack = () => {
@@ -126,7 +138,7 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     setTrackIndex(trackIndex - 1);
   };
 
-  const changePlaylist = (id: number) => {
+  const changePlaylist = async (id: number) => {
     setMenu(false);
     if (selectedPlaylist.id === id) {
       return;
@@ -145,6 +157,11 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     setSelectedPlaylistLength(playlist.tracks.length);
     setSelectedTrack(playlist.tracks[0]);
     setTrackIndex(0);
+    await sleep(50);
+    // set player to beginning of track
+    if (audio.current) {
+      audio.current.currentTime = 0;
+    }
   }
 
   useEffect(() => {
@@ -179,9 +196,6 @@ export const MusicPlayer = (props: { closed: boolean }) => {
       if (!audio.current) {
         return;
       }
-      if (audio.current.src !== getTrackUrl(selectedTrack)) {
-        audio.current.src = getTrackUrl(selectedTrack);
-      }
       audio.current.pause();
     };
   
@@ -189,22 +203,37 @@ export const MusicPlayer = (props: { closed: boolean }) => {
       if (!audio.current) {
         return;
       }
-      if (audio.current.src !== getTrackUrl(selectedTrack)) {
-        audio.current.src = getTrackUrl(selectedTrack);
-      }
       audio.current.play();
     };
+    if (audio.current?.src !== getTrackUrl(selectedTrack)) {
+      if (!audio.current) {
+        return;
+      }
+      audio.current.src = getTrackUrl(selectedTrack);
+    }
     const trackUrl = selectedTrack.waveform_url || selectedTrack.audio_url;
     if (trackUrl === previousWaveformUrl.current) {
       previousWaveformUrl.current = trackUrl;
     }
     if (isPlaying) {
       silentlyPause();
-      sleep(100);
+      sleep(200);
       silentlyPlay();
     }
-    
   }, [trackIndex, isPlaying, getTrackUrl, selectedTrack, selectedPlaylist.id]);
+
+  // useEffect(() => {
+  //   if (!audio.current) {
+  //     console.error('Audio element not found');
+  //     return;
+  //   }
+  //   audio.current.onended = () => {
+  //     if (isPlaying) {
+  //       sleep(200);
+  //       togglePlay();
+  //     }
+  //   }
+  // }, []);
 
   return (
     <div className="px-2">

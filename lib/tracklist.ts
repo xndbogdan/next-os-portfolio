@@ -1,6 +1,12 @@
 import type { Tracklist } from "./types"
 export const nextFM: Tracklist = [
   {
+    title: "Dreams - 2004 Remaster",
+    artist: "Fleetwood Mac",
+    audio_url: "dreams-2004-remaster",
+    permalink_url: "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz?si=1f8708fc00164ebb",
+  },
+  {
     title: "Soul",
     artist: "Tom Finster",
     audio_url: "UknFYBUbsXqifknRA",
