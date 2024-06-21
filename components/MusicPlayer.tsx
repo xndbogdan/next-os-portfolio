@@ -116,12 +116,6 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     }
     setSelectedTrack(selectedPlaylist.tracks[trackIndex + 1]);
     setTrackIndex(trackIndex + 1);
-    console.log({
-      isPlaying,
-      paused: audio.current?.paused,
-      readyState: audio.current?.readyState,
-      ended: audio.current?.ended,
-    })
     if (isPlaying && audio.current?.ended) {
       // We need to wait for a bit and then make the audio player play (togglePlay?)
       await sleep(200);
