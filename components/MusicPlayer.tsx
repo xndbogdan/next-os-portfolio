@@ -68,12 +68,12 @@ export const MusicPlayer = (props: { closed: boolean }) => {
 
   const getTrackUrl = useCallback(
     (selectedTrack: Track) => {
-      if (playlist.id === 1) {
-        return musicApiEndpoint + selectedTrack.waveform_url!.split('/')[3].replace('_m.png', '');
+      if (!selectedTrack.waveform_url) {
+        return musicApiEndpoint + selectedTrack.audio_url!;
       }
-      return musicApiEndpoint + selectedTrack.audio_url!;
+      return musicApiEndpoint + selectedTrack.waveform_url!.split('/')[3].replace('_m.png', '');
     },
-    [playlist.id, musicApiEndpoint] // Add dependencies here
+    [musicApiEndpoint] // Add dependencies here
   );
 
   const togglePlay = () => {
@@ -129,12 +129,9 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     if (isPlaying) {
       togglePlay();
     }
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('playlist-id', playlist.id.toString());
-    }
     setPlaylist(newPlaylist);
-    setSelectedPlaylistLength(playlist.tracks.length);
-    setSelectedTrack(playlist.tracks[0]);
+    setSelectedPlaylistLength(newPlaylist.tracks.length);
+    setSelectedTrack(newPlaylist.tracks[0]);
     setTrackIndex(0);
     await sleep(50);
     // set player to beginning of track
@@ -184,6 +181,7 @@ export const MusicPlayer = (props: { closed: boolean }) => {
       }
       audio.current.play();
     };
+
     if (audio.current?.src !== getTrackUrl(selectedTrack)) {
       if (!audio.current) {
         return;
@@ -199,7 +197,7 @@ export const MusicPlayer = (props: { closed: boolean }) => {
       sleep(200);
       silentlyPlay();
     }
-  }, [trackIndex, isPlaying, getTrackUrl, selectedTrack, playlist.id]);
+  }, [trackIndex, isPlaying, getTrackUrl, selectedTrack, playlist]);
 
   // useEffect(() => {
   //   if (!audio.current) {
