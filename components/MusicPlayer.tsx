@@ -199,18 +199,18 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     }
   }, [trackIndex, isPlaying, getTrackUrl, selectedTrack, playlist]);
 
-  // useEffect(() => {
-  //   if (!audio.current) {
-  //     console.error('Audio element not found');
-  //     return;
-  //   }
-  //   audio.current.onended = () => {
-  //     if (isPlaying) {
-  //       sleep(200);
-  //       togglePlay();
-  //     }
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+    if (localStorage.getItem('playlist-id')) {
+      const id = parseInt(localStorage.getItem('playlist-id')!);
+      const newPlaylist = playlists.find((playlist) => playlist.id === id);
+      if (newPlaylist) {
+        changePlaylist(newPlaylist.id);
+      }
+    }
+  },[]);
 
   return (
     <div className="px-2">

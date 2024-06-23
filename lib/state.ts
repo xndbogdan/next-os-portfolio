@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { Playlist } from './types';
 import { playlists } from './tracklist';
+import { useEffect } from 'react';
 
 type Store = {
   icons: { focused: boolean; clicks: number; dragging: boolean }[],
@@ -14,11 +15,7 @@ type Store = {
 const useStore = create<Store>()((set) => ({
   icons: Array(8).fill({ focused: false, clicks: 0, dragging: false }),
   setIcons: (icons) => set({ icons }),
-  playlist: typeof window !== 'undefined' ? 
-    localStorage.getItem('playlist-id') ? 
-      playlists.find((playlist) => playlist.id === parseInt(localStorage.getItem('playlist-id')!))! : 
-      playlists[0] : 
-    playlists[0],
+  playlist: playlists[0],
   setPlaylist: (playlist) => {
     set({ playlist });
     if (typeof window !== 'undefined') {
