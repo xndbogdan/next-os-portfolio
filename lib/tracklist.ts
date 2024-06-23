@@ -1,4 +1,5 @@
-import type { Tracklist } from "./types"
+import type { Tracklist, Playlist, } from "./types"
+
 export const nextFM: Tracklist = [
   {
     title: "Dreams - 2004 Remaster",
@@ -2626,3 +2627,16 @@ export const tracklist: Tracklist = [
     permalink_url: "https://soundcloud.com/funkingham/run-to-me-pimpin-willie-soulful-house-mix-1"
   }
 ]
+
+export const playlists: Playlist[] = [
+  { 
+    id: 1,
+    name: 'Poolsuite FM',
+    tracks: tracklist
+  },
+  {
+    id: 2,
+    name: 'Next FM',
+    tracks: nextFM
+  }
+];

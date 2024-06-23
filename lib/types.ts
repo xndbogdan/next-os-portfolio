@@ -17,4 +17,13 @@ type Playlist = {
   tracks: Tracklist;
 };
 
-export type { Tracklist, Track, Playlist };
+type DropdownMenuProps = {
+  windowTitle: string;
+  // setWindows: React.Dispatch<React.SetStateAction<Window[]>>;
+};
+
+type DesktopContainerProps = {
+  windowTitle: string;
+};
+
+export type { DesktopContainerProps, DropdownMenuProps, Tracklist, Track, Playlist };

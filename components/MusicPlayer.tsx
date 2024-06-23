@@ -3,35 +3,20 @@
 import { useRef, useState, useEffect, useCallback } from 'react';
 import AudioSpectrum from './Shared/AudioSpectrum';
 import type { Tracklist, Playlist, Track } from "@/lib/types";
-import { tracklist, nextFM } from '@/lib/tracklist';
+import { playlists } from '@/lib/tracklist';
 import Image from 'next/image';
-
-const shuffledTracklist: Tracklist = tracklist.sort((a, b) => 0.5 - Math.random());
+import { useStore } from '@/lib/state';
 
 export const MusicPlayer = (props: { closed: boolean }) => {
   const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
   const randomTrackIndex = 0;
   const musicApiEndpoint = process.env.NEXT_PUBLIC_TRACKLIST_ENDPOINT;
 
-  const playlists: Playlist[] = [
-    { 
-      id: 1,
-      name: 'Poolsuite FM',
-      tracks: shuffledTracklist
-    },
-    {
-      id: 2,
-      name: 'Next FM',
-      tracks: nextFM
-    }
-  ];
-  const savedPlaylistId = typeof window !== 'undefined' ? localStorage.getItem('playlist-id') : null;
-  const savedPlaylist: Playlist = savedPlaylistId ? playlists.find((playlist) => playlist.id === parseInt(savedPlaylistId))! : playlists[0];
   const [menu, setMenu] = useState(false);
-  const [selectedPlaylist, setSelectedPlaylist] = useState(savedPlaylist);
-  const [selectedPlaylistLength, setSelectedPlaylistLength] = useState(selectedPlaylist?.tracks.length);
+  const { playlist, setPlaylist } = useStore();
+  const [selectedPlaylistLength, setSelectedPlaylistLength] = useState(playlist.tracks.length);
   const [trackIndex, setTrackIndex] = useState(randomTrackIndex);
-  const [selectedTrack, setSelectedTrack] = useState(selectedPlaylist.tracks[trackIndex]);
+  const [selectedTrack, setSelectedTrack] = useState(playlist.tracks[trackIndex]);
 
   const [display, setDisplay] = useState('Player Offline');
   const [isPlaying, setIsPlaying] = useState(false);
@@ -83,12 +68,12 @@ export const MusicPlayer = (props: { closed: boolean }) => {
 
   const getTrackUrl = useCallback(
     (selectedTrack: Track) => {
-      if (selectedPlaylist.id === 1) {
+      if (playlist.id === 1) {
         return musicApiEndpoint + selectedTrack.waveform_url!.split('/')[3].replace('_m.png', '');
       }
       return musicApiEndpoint + selectedTrack.audio_url!;
     },
-    [selectedPlaylist.id, musicApiEndpoint] // Add dependencies here
+    [playlist.id, musicApiEndpoint] // Add dependencies here
   );
 
   const togglePlay = () => {
@@ -111,10 +96,10 @@ export const MusicPlayer = (props: { closed: boolean }) => {
   };
 
   const nextTrack = async () => {
-    if (trackIndex >= selectedPlaylist.tracks.length - 1) {
+    if (trackIndex >= playlist.tracks.length - 1) {
       return;
     }
-    setSelectedTrack(selectedPlaylist.tracks[trackIndex + 1]);
+    setSelectedTrack(playlist.tracks[trackIndex + 1]);
     setTrackIndex(trackIndex + 1);
     if (isPlaying && audio.current?.ended) {
       // We need to wait for a bit and then make the audio player play (togglePlay?)
@@ -128,17 +113,17 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     if (trackIndex <= 0) {
       return;
     }
-    setSelectedTrack(selectedPlaylist.tracks[trackIndex - 1]);
+    setSelectedTrack(playlist.tracks[trackIndex - 1]);
     setTrackIndex(trackIndex - 1);
   };
 
   const changePlaylist = async (id: number) => {
     setMenu(false);
-    if (selectedPlaylist.id === id) {
+    if (playlist.id === id) {
       return;
     }
-    const playlist = playlists.find((playlist) => playlist.id === id);
-    if (!playlist) {
+    const newPlaylist = playlists.find((playlist) => playlist.id === id);
+    if (!newPlaylist) {
       return;
     }
     if (isPlaying) {
@@ -147,7 +132,7 @@ export const MusicPlayer = (props: { closed: boolean }) => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('playlist-id', playlist.id.toString());
     }
-    setSelectedPlaylist(playlist);
+    setPlaylist(newPlaylist);
     setSelectedPlaylistLength(playlist.tracks.length);
     setSelectedTrack(playlist.tracks[0]);
     setTrackIndex(0);
@@ -214,7 +199,7 @@ export const MusicPlayer = (props: { closed: boolean }) => {
       sleep(200);
       silentlyPlay();
     }
-  }, [trackIndex, isPlaying, getTrackUrl, selectedTrack, selectedPlaylist.id]);
+  }, [trackIndex, isPlaying, getTrackUrl, selectedTrack, playlist.id]);
 
   // useEffect(() => {
   //   if (!audio.current) {
@@ -268,7 +253,7 @@ export const MusicPlayer = (props: { closed: boolean }) => {
       <div className='flex items-center py-1'>
         <p className='text-sm'>Station:&nbsp;</p>
         <div onMouseDown={ () => { setMenu(!menu) } } className={menu ? 'bg-gray-400 flex items-center px-1 cursor-pointer' : 'hover:invert bg-gray-mac flex items-center px-1 cursor-pointer'}>
-          <p className="text-sm">{selectedPlaylist.name}</p>
+          <p className="text-sm">{playlist.name}</p>
           <Image className="inline ml-1 w-1" src="/img/arrow-down.png" height="5" width="3" alt='arrow down'/>
         </div>
         <div id="dropdown" className={ menu ? 'z-10 w-44 bg-gray-mac shadow-mac-os absolute mt-16 ml-16' : 'hidden' }>
