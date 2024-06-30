@@ -180,6 +180,12 @@ export const DesktopContainer = ({windowTitle}: DesktopContainerProps) => {
                   <Draggable
                     key={app.iconTitle}
                     handle=".handle"
+                    onStart={() => {
+                      if (index === 2) {
+                        window.open('/BogdanResume.pdf', '_blank');
+                        return false;
+                      }
+                    }}
                     onMouseDown={() => toggleIconVisibility(index)}>
                       <div
                         id={`icon-${index}`}
