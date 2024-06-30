@@ -78,23 +78,6 @@ export const Resume = () => {
         </div>
 
         <div className='mt-4'>
-          <a className='text-orange-600 hover:text-orange-700 text-lg font-bold' href='https://voice.ai/' target='_blank'>→ Voice.ai</a>
-          <p className='text-gray-700 px-5 -mt-1'><small>Contractor</small></p>
-          <p className='text-gray-700 px-5 -mt-1'><small>Sep 2022 - Nov 2022 · 3 mos</small></p>
-          <ul className='ml-4'>
-            <li>● Hands-on experience with vuetify & desktop app development</li>
-            <li>● Gained valuable experience working in a start-up environment</li>
-            <li>● Sped up development by coming up with a quick admin panel implementation (Laravel Nova)</li>
-          </ul>
-          <div className='px-4 mt-1'>
-            <div className='text-base underline'>
-              Tech Stack:
-            </div>
-            <p>Mysql, Vuetify, Electron, Laravel</p>
-          </div>
-        </div>
-
-        <div className='mt-4'>
           <a className='text-orange-600 hover:text-orange-700 text-lg font-bold' href='https://www.webfusion.ro/' target='_blank'>→ WEBFUSION</a>
           <p className='text-gray-700 px-5 -mt-1'><small>Contractor</small></p>
           <p className='text-gray-700 px-5 -mt-1'><small>Sep 2020 - May 2022 · 1 yr 9 mos</small></p>
