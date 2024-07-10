@@ -1,162 +1,193 @@
-import type { Tracklist, Playlist, } from "./types"
+import type { Tracklist, Playlist } from "./types";
 
 export const nextFM: Tracklist = [
+  {
+    title: "Espresso",
+    artist: "Sabrina Carpenter",
+    audio_url: "espresso",
+    permalink_url:
+      "https://open.spotify.com/track/2qSkIjg1o9h3YT9RAgYN75?si=93b062c33dea4f65",
+  },
   {
     title: "Dreams - 2004 Remaster",
     artist: "Fleetwood Mac",
     audio_url: "dreams-2004-remaster",
-    permalink_url: "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz?si=1f8708fc00164ebb",
+    permalink_url:
+      "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz?si=1f8708fc00164ebb",
   },
   {
     title: "Soul",
     artist: "Tom Finster",
     audio_url: "UknFYBUbsXqifknRA",
-    permalink_url: "https://soundcloud.com/pilotrecordsuk/tom-finster-soul"
+    permalink_url: "https://soundcloud.com/pilotrecordsuk/tom-finster-soul",
   },
   {
     title: "HER",
     artist: "longstoryshort",
     audio_url: "her",
-    permalink_url: "https://open.spotify.com/track/3yiArvW0ofZkCDxvdukoUC?si=17ade8a6fff84058"
+    permalink_url:
+      "https://open.spotify.com/track/3yiArvW0ofZkCDxvdukoUC?si=17ade8a6fff84058",
   },
   {
     title: "Reborn",
     artist: "Klimeks",
     audio_url: "reborn",
-    permalink_url: "https://open.spotify.com/track/38YGZ0d5CRwQ9W41WSYtjA?si=546c76d9da5443c7",
+    permalink_url:
+      "https://open.spotify.com/track/38YGZ0d5CRwQ9W41WSYtjA?si=546c76d9da5443c7",
   },
   {
     title: "Feel My Needs - Even Shorter Version",
     artist: "Weiss",
     audio_url: "feel-my-needs-even-shorter-version",
-    permalink_url: "https://open.spotify.com/track/0zRPtmev0t91HHwOdQRcHi?si=83d852d1b5904a19",
+    permalink_url:
+      "https://open.spotify.com/track/0zRPtmev0t91HHwOdQRcHi?si=83d852d1b5904a19",
   },
   {
     title: "Let You Do This (with Buy Now)",
     artist: "Salvatore Ganacci, Sebastian Ingrosso, Steve Angello, Buy Now",
     audio_url: "let-you-do-this-with-buy-now",
-    permalink_url: "https://open.spotify.com/track/4QAac9ShKdaeadGibY9ehB?si=d09126099ab84927",
+    permalink_url:
+      "https://open.spotify.com/track/4QAac9ShKdaeadGibY9ehB?si=d09126099ab84927",
   },
   {
     title: "running up that hill",
     artist: "pale fortress",
     audio_url: "HBYCht3mCJ9VKaDC9",
-    permalink_url: "https://soundcloud.com/liquidritual/pale-fortress-running-up-that-hill"
+    permalink_url:
+      "https://soundcloud.com/liquidritual/pale-fortress-running-up-that-hill",
   },
   {
     title: "Pogo",
     artist: "Digitalism",
     audio_url: "pogo",
-    permalink_url: "https://open.spotify.com/track/1YPxUUih6iIQsCshtPkv2L?si=f0e13a74db3e497b",
+    permalink_url:
+      "https://open.spotify.com/track/1YPxUUih6iIQsCshtPkv2L?si=f0e13a74db3e497b",
   },
   {
     title: "ur unusual",
     artist: "Atticus Rush",
     audio_url: "ur-unusual",
-    permalink_url: "https://open.spotify.com/track/740Knt7xv58YtiatpinobO?si=c8339242314049e9",
+    permalink_url:
+      "https://open.spotify.com/track/740Knt7xv58YtiatpinobO?si=c8339242314049e9",
   },
   {
     title: "Lucky",
     artist: "Bad Snacks",
     audio_url: "lucky",
-    permalink_url: "https://open.spotify.com/track/350nl8g3jj5WLSxPwYFcVe?si=eacbf45b13314d8b",
+    permalink_url:
+      "https://open.spotify.com/track/350nl8g3jj5WLSxPwYFcVe?si=eacbf45b13314d8b",
   },
   {
     title: "Stupidisco (Jolyon Petch Remix)",
     artist: "Junior Jack, Jolyon Petch",
     audio_url: "stupidisco-jolyon-petch-remix",
-    permalink_url: "https://open.spotify.com/track/111c0efjmif2O3SKjrQgYL?si=28c5d40dc8114aba",
+    permalink_url:
+      "https://open.spotify.com/track/111c0efjmif2O3SKjrQgYL?si=28c5d40dc8114aba",
   },
   {
     title: "Hang Up",
     artist: "WRLD, Savoi",
     audio_url: "hang-up",
-    permalink_url: "https://open.spotify.com/track/1F65NjLm6OQIpuiwGMAdBf?si=c5474c6abd14488e",
+    permalink_url:
+      "https://open.spotify.com/track/1F65NjLm6OQIpuiwGMAdBf?si=c5474c6abd14488e",
   },
   {
     title: "Love Taste",
     artist: "Moe Shop, Jamie Paige, Shiki-TMNS",
     audio_url: "love-taste",
-    permalink_url:"https://open.spotify.com/track/0XVoD3TmJVEYdRzZoe0Ewy?si=df376bde4ad34971",
+    permalink_url:
+      "https://open.spotify.com/track/0XVoD3TmJVEYdRzZoe0Ewy?si=df376bde4ad34971",
   },
   {
     title: "City Nights",
     artist: "DRYVE, FATHERDUDE",
     audio_url: "city-nights",
-    permalink_url: "https://open.spotify.com/track/7oeaTU3yc5WipFocCmRJPo?si=8d765ac591834f93",
+    permalink_url:
+      "https://open.spotify.com/track/7oeaTU3yc5WipFocCmRJPo?si=8d765ac591834f93",
   },
   {
     title: "Excess",
     artist: "Robots With Rayguns",
     audio_url: "excess",
-    permalink_url: "https://open.spotify.com/track/3bcF82sBcGX88lntacdjkN?si=55412349dc4e45a1",
+    permalink_url:
+      "https://open.spotify.com/track/3bcF82sBcGX88lntacdjkN?si=55412349dc4e45a1",
   },
   {
     title: "Voodoo",
     artist: "Gorgon City",
     audio_url: "voodoo",
-    permalink_url: "https://open.spotify.com/track/32Jb8vswE1GeMjznntdpOl?si=b34ae2a02f554f77"
+    permalink_url:
+      "https://open.spotify.com/track/32Jb8vswE1GeMjznntdpOl?si=b34ae2a02f554f77",
   },
   {
     title: "The Beat",
     artist: "C2C",
     audio_url: "the-beat",
-    permalink_url: "https://open.spotify.com/track/5KTZsi6HKh2laUVsgaU3ag?si=392e587c015b48f2"
+    permalink_url:
+      "https://open.spotify.com/track/5KTZsi6HKh2laUVsgaU3ag?si=392e587c015b48f2",
   },
   {
     title: "Three In The Morning",
     artist: "k?d",
     audio_url: "3KsCzAhEXJKtuWdV9",
-    permalink_url: "https://soundcloud.com/whoskid/kd-three-in-the-morning-ft-cecilia-gault"
+    permalink_url:
+      "https://soundcloud.com/whoskid/kd-three-in-the-morning-ft-cecilia-gault",
   },
   {
     title: "About It (JNATHYN remix)",
     artist: "Jnathyn, colorcase, Your Neighbors",
     audio_url: "about-it-jnathyn-remix",
-    permalink_url: "https://open.spotify.com/track/6iYvh43Gt2rxOYkLPsvUhj?si=280b050f9a9b479d",
+    permalink_url:
+      "https://open.spotify.com/track/6iYvh43Gt2rxOYkLPsvUhj?si=280b050f9a9b479d",
   },
   {
     title: "Ready To Fly - Spencer Ramsay Bounce Edit",
     artist: "Sub Focus, Dimension, Spencer Ramsay",
     audio_url: "ready-to-fly-spencer-ramsay-bounce-edit",
-    permalink_url: "https://open.spotify.com/track/2glD1cS3DG1GzxoQ8qAJPN?si=2f171b5fa9c944f7",
+    permalink_url:
+      "https://open.spotify.com/track/2glD1cS3DG1GzxoQ8qAJPN?si=2f171b5fa9c944f7",
   },
   {
     title: "Afraid",
     artist: "Jungle Juggernaut",
     audio_url: "YLFWLGeD6cNas7zNA",
-    permalink_url: "https://soundcloud.com/junglejuggernaut/afraid"
+    permalink_url: "https://soundcloud.com/junglejuggernaut/afraid",
   },
   {
     title: "Hearts Wander",
     artist: "MC Fava, Seba, Emily Harkness",
     audio_url: "hearts-wander",
-    permalink_url: "https://open.spotify.com/track/39a3pZgFKvTee1Z3DO8Boj?si=feaac67f03284044"
+    permalink_url:
+      "https://open.spotify.com/track/39a3pZgFKvTee1Z3DO8Boj?si=feaac67f03284044",
   },
   {
     title: "Hanging By a Thread (feat. Natalie Foster) - Flowidus Remix",
     artist: "Elk Road, Natalie Foster, Flowidus",
     audio_url: "hanging-by-a-thread-flowidus-remix",
-    permalink_url: "https://open.spotify.com/track/4xOVgrve0s1klmwjx4TllO?si=8899d49add664aba"
+    permalink_url:
+      "https://open.spotify.com/track/4xOVgrve0s1klmwjx4TllO?si=8899d49add664aba",
   },
   {
     title: "Make Up My Mind",
     artist: "Snackbox, Husky",
     audio_url: "make-up-my-mind",
-    permalink_url: "https://open.spotify.com/track/2FXwX8wv2nmDy1U8NRiHo2?si=7552a05aacf949d3"
+    permalink_url:
+      "https://open.spotify.com/track/2FXwX8wv2nmDy1U8NRiHo2?si=7552a05aacf949d3",
   },
   {
     title: "Criminal Minds 2",
     artist: "Urbanstep, Loboski, Daegho",
     audio_url: "criminal-minds-2",
-    permalink_url: "https://open.spotify.com/track/0whF4LmIXlPi5FfCGS7Idi?si=82972ea8cb964772"
+    permalink_url:
+      "https://open.spotify.com/track/0whF4LmIXlPi5FfCGS7Idi?si=82972ea8cb964772",
   },
   {
     title: "Wolves",
     artist: "Voicians",
     audio_url: "wolves",
-    permalink_url: "https://open.spotify.com/track/78u4epgbnDBxm5mOBLaa6h?si=852a42d5f8a54f2c"
-  }
+    permalink_url:
+      "https://open.spotify.com/track/78u4epgbnDBxm5mOBLaa6h?si=852a42d5f8a54f2c",
+  },
 ];
 
 export const tracklist: Tracklist = [
@@ -167,7 +198,8 @@ export const tracklist: Tracklist = [
     duration_ms: 377190,
     date_added: "2021-12-20T12:32:02.447Z",
     waveform_url: "https://wave.sndcdn.com/WEaTKAZd5Qlp_m.png",
-    permalink_url: "https://soundcloud.com/seths-pants-are-on-fire/tru-tones-dancing-roger-thornhill-edit"
+    permalink_url:
+      "https://soundcloud.com/seths-pants-are-on-fire/tru-tones-dancing-roger-thornhill-edit",
   },
   {
     soundcloud_id: 135662336,
@@ -176,7 +208,7 @@ export const tracklist: Tracklist = [
     duration_ms: 210096,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/qKmcslK8QWvd_m.png",
-    permalink_url: "https://soundcloud.com/dariusofficial/omeo"
+    permalink_url: "https://soundcloud.com/dariusofficial/omeo",
   },
   {
     soundcloud_id: 265516420,
@@ -185,7 +217,7 @@ export const tracklist: Tracklist = [
     duration_ms: 245102,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/EFy9KFQk2weu_m.png",
-    permalink_url: "https://soundcloud.com/flamingosis/believe-in-me-1"
+    permalink_url: "https://soundcloud.com/flamingosis/believe-in-me-1",
   },
   {
     soundcloud_id: 153001611,
@@ -194,7 +226,8 @@ export const tracklist: Tracklist = [
     duration_ms: 298085,
     date_added: "2021-12-20T12:32:02.447Z",
     waveform_url: "https://wave.sndcdn.com/HRxY7I8Oqm8l_m.png",
-    permalink_url: "https://soundcloud.com/rico-kedlafunk/arian-your-love-makes-me-a"
+    permalink_url:
+      "https://soundcloud.com/rico-kedlafunk/arian-your-love-makes-me-a",
   },
   {
     soundcloud_id: 208404028,
@@ -203,7 +236,8 @@ export const tracklist: Tracklist = [
     duration_ms: 361019,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/fZsTlTI6JbvQ_m.png",
-    permalink_url: "https://soundcloud.com/youthcontrol/tjh87-night-tontario-remix"
+    permalink_url:
+      "https://soundcloud.com/youthcontrol/tjh87-night-tontario-remix",
   },
   {
     soundcloud_id: 387104843,
@@ -212,7 +246,8 @@ export const tracklist: Tracklist = [
     duration_ms: 404360,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/cDcDgaKdbK8w_m.png",
-    permalink_url: "https://soundcloud.com/late-nite-tuff-guy/i-know-u-lntg-rework"
+    permalink_url:
+      "https://soundcloud.com/late-nite-tuff-guy/i-know-u-lntg-rework",
   },
   {
     soundcloud_id: 1201437571,
@@ -221,7 +256,7 @@ export const tracklist: Tracklist = [
     duration_ms: 292650,
     date_added: "2022-01-27T07:32:01.912Z",
     waveform_url: "https://wave.sndcdn.com/ERwN6PP7k4yo_m.png",
-    permalink_url: "https://soundcloud.com/garedunord07/elado-blame"
+    permalink_url: "https://soundcloud.com/garedunord07/elado-blame",
   },
   {
     soundcloud_id: 764342995,
@@ -230,7 +265,7 @@ export const tracklist: Tracklist = [
     duration_ms: 164728,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/DALPZTONGfqx_m.png",
-    permalink_url: "https://soundcloud.com/luxxury/make-it-right-1"
+    permalink_url: "https://soundcloud.com/luxxury/make-it-right-1",
   },
   {
     soundcloud_id: 552040449,
@@ -239,7 +274,7 @@ export const tracklist: Tracklist = [
     duration_ms: 254560,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/9X9ZiSVomYDn_m.png",
-    permalink_url: "https://soundcloud.com/po-one/steady-glide"
+    permalink_url: "https://soundcloud.com/po-one/steady-glide",
   },
   {
     soundcloud_id: 379157525,
@@ -248,7 +283,7 @@ export const tracklist: Tracklist = [
     duration_ms: 274180,
     date_added: "2021-12-20T13:32:02.575Z",
     waveform_url: "https://wave.sndcdn.com/FPrwlRyzBfuR_m.png",
-    permalink_url: "https://soundcloud.com/afrosynth/tomorrow-ntombi-ndaba"
+    permalink_url: "https://soundcloud.com/afrosynth/tomorrow-ntombi-ndaba",
   },
   {
     soundcloud_id: 643466592,
@@ -257,7 +292,8 @@ export const tracklist: Tracklist = [
     duration_ms: 90782,
     date_added: "2021-12-17T18:32:03.073Z",
     waveform_url: "https://wave.sndcdn.com/U4X3WQvQmQPc_m.png",
-    permalink_url: "https://soundcloud.com/glitterboxibiza/sticks-stonez-liv-east-youre-1"
+    permalink_url:
+      "https://soundcloud.com/glitterboxibiza/sticks-stonez-liv-east-youre-1",
   },
   {
     soundcloud_id: 198389306,
@@ -266,7 +302,7 @@ export const tracklist: Tracklist = [
     duration_ms: 271802,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/bTqaiKetkvOy_m.png",
-    permalink_url: "https://soundcloud.com/jeantonique/my-love-your-soul"
+    permalink_url: "https://soundcloud.com/jeantonique/my-love-your-soul",
   },
   {
     soundcloud_id: 876692572,
@@ -275,7 +311,8 @@ export const tracklist: Tracklist = [
     duration_ms: 264411,
     date_added: "2020-08-21T16:32:02.782Z",
     waveform_url: "https://wave.sndcdn.com/e6HWKVRccgM4_m.png",
-    permalink_url: "https://soundcloud.com/boogie80-com/carol-anderson-i-found-love-1983"
+    permalink_url:
+      "https://soundcloud.com/boogie80-com/carol-anderson-i-found-love-1983",
   },
   {
     soundcloud_id: 255891406,
@@ -284,7 +321,8 @@ export const tracklist: Tracklist = [
     duration_ms: 472101,
     date_added: "2021-12-17T18:32:03.073Z",
     waveform_url: "https://wave.sndcdn.com/iboTfpLKxKut_m.png",
-    permalink_url: "https://soundcloud.com/hercules-and-love-affair/blind-frankie-knuckles-remix"
+    permalink_url:
+      "https://soundcloud.com/hercules-and-love-affair/blind-frankie-knuckles-remix",
   },
   {
     soundcloud_id: 118451587,
@@ -293,7 +331,8 @@ export const tracklist: Tracklist = [
     duration_ms: 334711,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/thjifFNkfynW_m.png",
-    permalink_url: "https://soundcloud.com/jeanclaudegavri/palco-jean-claude-gavri-re"
+    permalink_url:
+      "https://soundcloud.com/jeanclaudegavri/palco-jean-claude-gavri-re",
   },
   {
     soundcloud_id: 306083959,
@@ -302,7 +341,8 @@ export const tracklist: Tracklist = [
     duration_ms: 238076,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/rCqzOJD1vYlg_m.png",
-    permalink_url: "https://soundcloud.com/pole-jam-vinyl/a1-pioneerball-deltaplane-pre-order"
+    permalink_url:
+      "https://soundcloud.com/pole-jam-vinyl/a1-pioneerball-deltaplane-pre-order",
   },
   {
     soundcloud_id: 87372609,
@@ -311,7 +351,7 @@ export const tracklist: Tracklist = [
     duration_ms: 294166,
     date_added: "2021-12-20T12:32:02.447Z",
     waveform_url: "https://wave.sndcdn.com/M4ZInJyGJUp9_m.png",
-    permalink_url: "https://soundcloud.com/youngpulse/thursdayrework006"
+    permalink_url: "https://soundcloud.com/youngpulse/thursdayrework006",
   },
   {
     soundcloud_id: 812151832,
@@ -320,7 +360,8 @@ export const tracklist: Tracklist = [
     duration_ms: 353071,
     date_added: "2020-06-22T19:32:06.703Z",
     waveform_url: "https://wave.sndcdn.com/MpY2fZzRxCUi_m.png",
-    permalink_url: "https://soundcloud.com/stan-boogie/stan-boogie-night-time-in-brighton"
+    permalink_url:
+      "https://soundcloud.com/stan-boogie/stan-boogie-night-time-in-brighton",
   },
   {
     soundcloud_id: 630525522,
@@ -329,7 +370,7 @@ export const tracklist: Tracklist = [
     duration_ms: 234079,
     date_added: "2020-09-28T17:32:03.260Z",
     waveform_url: "https://wave.sndcdn.com/Og2CF6FD9Oui_m.png",
-    permalink_url: "https://soundcloud.com/marattaproductions/what-youll-find"
+    permalink_url: "https://soundcloud.com/marattaproductions/what-youll-find",
   },
   {
     soundcloud_id: 1170519517,
@@ -338,7 +379,8 @@ export const tracklist: Tracklist = [
     duration_ms: 351399,
     date_added: "2021-12-17T18:32:03.073Z",
     waveform_url: "https://wave.sndcdn.com/hxKRe8KIVYsN_m.png",
-    permalink_url: "https://soundcloud.com/razor-n-tape/saucy-lady-passport-to-my-love"
+    permalink_url:
+      "https://soundcloud.com/razor-n-tape/saucy-lady-passport-to-my-love",
   },
   {
     soundcloud_id: 222984626,
@@ -347,7 +389,8 @@ export const tracklist: Tracklist = [
     duration_ms: 377190,
     date_added: "2021-12-20T13:32:02.575Z",
     waveform_url: "https://wave.sndcdn.com/l3HuonP93W65_m.png",
-    permalink_url: "https://soundcloud.com/juvenilia/enjoy-your-life-oby-onyioha"
+    permalink_url:
+      "https://soundcloud.com/juvenilia/enjoy-your-life-oby-onyioha",
   },
   {
     soundcloud_id: 285778228,
@@ -356,7 +399,8 @@ export const tracklist: Tracklist = [
     duration_ms: 452665,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/X3ZgddrQMSCS_m.png",
-    permalink_url: "https://soundcloud.com/mr_moustache/breakbot-my-toy-mr-moustache-remix"
+    permalink_url:
+      "https://soundcloud.com/mr_moustache/breakbot-my-toy-mr-moustache-remix",
   },
   {
     soundcloud_id: 193880569,
@@ -365,7 +409,8 @@ export const tracklist: Tracklist = [
     duration_ms: 338682,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/EIAsHxrkUrRV_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/10-issac-gavlez-fille-aux"
+    permalink_url:
+      "https://soundcloud.com/stratfordct/10-issac-gavlez-fille-aux",
   },
   {
     soundcloud_id: 322727197,
@@ -374,7 +419,8 @@ export const tracklist: Tracklist = [
     duration_ms: 321831,
     date_added: "2021-12-20T11:32:01.937Z",
     waveform_url: "https://wave.sndcdn.com/Xk65QA5SIXhC_m.png",
-    permalink_url: "https://soundcloud.com/slothboogie/sb-premiere-coeo-cabrio-mango-toy-tonics"
+    permalink_url:
+      "https://soundcloud.com/slothboogie/sb-premiere-coeo-cabrio-mango-toy-tonics",
   },
   {
     soundcloud_id: 382349678,
@@ -383,7 +429,8 @@ export const tracklist: Tracklist = [
     duration_ms: 304145,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/FUYax44DscpC_m.png",
-    permalink_url: "https://soundcloud.com/voyager909/bee-gees-you-stepped-into-my-life-voyager-909-edit"
+    permalink_url:
+      "https://soundcloud.com/voyager909/bee-gees-you-stepped-into-my-life-voyager-909-edit",
   },
   {
     soundcloud_id: 945667846,
@@ -392,7 +439,7 @@ export const tracklist: Tracklist = [
     duration_ms: 226038,
     date_added: "2020-12-24T18:32:03.190Z",
     waveform_url: "https://wave.sndcdn.com/B3hd5xELefNJ_m.png",
-    permalink_url: "https://soundcloud.com/flamingosis/daymaker"
+    permalink_url: "https://soundcloud.com/flamingosis/daymaker",
   },
   {
     soundcloud_id: 270366132,
@@ -401,7 +448,7 @@ export const tracklist: Tracklist = [
     duration_ms: 191912,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/4TEtxyIW3kWz_m.png",
-    permalink_url: "https://soundcloud.com/tuuwa/boogie-lights"
+    permalink_url: "https://soundcloud.com/tuuwa/boogie-lights",
   },
   {
     soundcloud_id: 257610254,
@@ -410,7 +457,8 @@ export const tracklist: Tracklist = [
     duration_ms: 570437,
     date_added: "2020-08-07T21:32:04.367Z",
     waveform_url: "https://wave.sndcdn.com/j0VoBpwnE915_m.png",
-    permalink_url: "https://soundcloud.com/music-for-dreams/tabu-ley-rochereau-hafi-deo"
+    permalink_url:
+      "https://soundcloud.com/music-for-dreams/tabu-ley-rochereau-hafi-deo",
   },
   {
     soundcloud_id: 271883692,
@@ -419,7 +467,7 @@ export const tracklist: Tracklist = [
     duration_ms: 103245,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/bioRFp3oYmij_m.png",
-    permalink_url: "https://soundcloud.com/yungestbae/dont-say-yes"
+    permalink_url: "https://soundcloud.com/yungestbae/dont-say-yes",
   },
   {
     soundcloud_id: 167101195,
@@ -428,7 +476,8 @@ export const tracklist: Tracklist = [
     duration_ms: 453005,
     date_added: "2021-07-17T07:32:02.542Z",
     waveform_url: "https://wave.sndcdn.com/Z31XeD5bjUy2_m.png",
-    permalink_url: "https://soundcloud.com/kraaksmaak/back-again-feat-john-turrell-hot-toddy-remix"
+    permalink_url:
+      "https://soundcloud.com/kraaksmaak/back-again-feat-john-turrell-hot-toddy-remix",
   },
   {
     soundcloud_id: 458113572,
@@ -437,7 +486,8 @@ export const tracklist: Tracklist = [
     duration_ms: 200325,
     date_added: "2020-05-29T22:07:25.256Z",
     waveform_url: "https://wave.sndcdn.com/8swpO7OH4J2l_m.png",
-    permalink_url: "https://soundcloud.com/isle-fever/were-not-broken-discoholic-remix"
+    permalink_url:
+      "https://soundcloud.com/isle-fever/were-not-broken-discoholic-remix",
   },
   {
     soundcloud_id: 342844094,
@@ -446,7 +496,7 @@ export const tracklist: Tracklist = [
     duration_ms: 198157,
     date_added: "2020-05-29T22:07:08.511Z",
     waveform_url: "https://wave.sndcdn.com/MR4BFk4sgjh3_m.png",
-    permalink_url: "https://soundcloud.com/elektricdreams/jump-in"
+    permalink_url: "https://soundcloud.com/elektricdreams/jump-in",
   },
   {
     soundcloud_id: 727577518,
@@ -455,7 +505,8 @@ export const tracklist: Tracklist = [
     duration_ms: 251768,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/5SNA9o5wAM4A_m.png",
-    permalink_url: "https://soundcloud.com/the-oto-factory/mitsume-the-oto-factory-remix"
+    permalink_url:
+      "https://soundcloud.com/the-oto-factory/mitsume-the-oto-factory-remix",
   },
   {
     soundcloud_id: 52419266,
@@ -464,7 +515,8 @@ export const tracklist: Tracklist = [
     duration_ms: 228449,
     date_added: "2021-05-29T15:32:02.716Z",
     waveform_url: "https://wave.sndcdn.com/XDA37m1Z8Har_m.png",
-    permalink_url: "https://soundcloud.com/le-delight-club/florian-bery-la-seductrice"
+    permalink_url:
+      "https://soundcloud.com/le-delight-club/florian-bery-la-seductrice",
   },
   {
     soundcloud_id: 134818987,
@@ -473,7 +525,8 @@ export const tracklist: Tracklist = [
     duration_ms: 207457,
     date_added: "2020-07-07T19:32:06.175Z",
     waveform_url: "https://wave.sndcdn.com/oqO0alvzrhAn_m.png",
-    permalink_url: "https://soundcloud.com/artistdiscovery/rollergirl-feat-harris-cole"
+    permalink_url:
+      "https://soundcloud.com/artistdiscovery/rollergirl-feat-harris-cole",
   },
   {
     soundcloud_id: 315719823,
@@ -482,7 +535,7 @@ export const tracklist: Tracklist = [
     duration_ms: 149826,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/LFrim4NdeKqP_m.png",
-    permalink_url: "https://soundcloud.com/amherstmusic/auraloop"
+    permalink_url: "https://soundcloud.com/amherstmusic/auraloop",
   },
   {
     soundcloud_id: 191620721,
@@ -491,7 +544,7 @@ export const tracklist: Tracklist = [
     duration_ms: 413948,
     date_added: "2021-03-28T14:32:04.167Z",
     waveform_url: "https://wave.sndcdn.com/VcwMZq2KlznQ_m.png",
-    permalink_url: "https://soundcloud.com/falcon-punch/donalds-bird"
+    permalink_url: "https://soundcloud.com/falcon-punch/donalds-bird",
   },
   {
     soundcloud_id: 495308145,
@@ -500,7 +553,7 @@ export const tracklist: Tracklist = [
     duration_ms: 198705,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/g9LBPYd9MjTt_m.png",
-    permalink_url: "https://soundcloud.com/engelwoodmusic/pink-lemonade"
+    permalink_url: "https://soundcloud.com/engelwoodmusic/pink-lemonade",
   },
   {
     soundcloud_id: 167327428,
@@ -509,25 +562,28 @@ export const tracklist: Tracklist = [
     duration_ms: 263651,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/9xgAjCbKjXdx_m.png",
-    permalink_url: "https://soundcloud.com/the-bay/kattch-vice-easy-edmcom-exclusive"
+    permalink_url:
+      "https://soundcloud.com/the-bay/kattch-vice-easy-edmcom-exclusive",
   },
   {
     soundcloud_id: 255899748,
-    title: "Narada Michael Walden - Shoulda Loved Ya (Coutel Edit)(Free Download)",
+    title:
+      "Narada Michael Walden - Shoulda Loved Ya (Coutel Edit)(Free Download)",
     artist: "Coutel",
     duration_ms: 390619,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/eBivAmjCTZUT_m.png",
-    permalink_url: "https://soundcloud.com/coutel/narada-michael-walden-shoulda-loved-ya-coutel-edit"
+    permalink_url:
+      "https://soundcloud.com/coutel/narada-michael-walden-shoulda-loved-ya-coutel-edit",
   },
   {
     soundcloud_id: 232766181,
-    title: "Slync - \"Toasted\" - Pole Jam Vinyl",
+    title: 'Slync - "Toasted" - Pole Jam Vinyl',
     artist: "Ian Stanford",
     duration_ms: 332150,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/yv6SCIpKI4ul_m.png",
-    permalink_url: "https://soundcloud.com/slync/slync-toasted"
+    permalink_url: "https://soundcloud.com/slync/slync-toasted",
   },
   {
     soundcloud_id: 312300774,
@@ -536,7 +592,8 @@ export const tracklist: Tracklist = [
     duration_ms: 187732,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/gjSm686KTZRu_m.png",
-    permalink_url: "https://soundcloud.com/aeroplane/love-on-hold-feat-tawatha-agee"
+    permalink_url:
+      "https://soundcloud.com/aeroplane/love-on-hold-feat-tawatha-agee",
   },
   {
     soundcloud_id: 1079518393,
@@ -545,7 +602,7 @@ export const tracklist: Tracklist = [
     duration_ms: 255321,
     date_added: "2021-07-07T09:32:03.484Z",
     waveform_url: "https://wave.sndcdn.com/OpfHChkIPFj2_m.png",
-    permalink_url: "https://soundcloud.com/pamplemousserosee/surfando-as-ondas"
+    permalink_url: "https://soundcloud.com/pamplemousserosee/surfando-as-ondas",
   },
   {
     soundcloud_id: 287647676,
@@ -554,7 +611,8 @@ export const tracklist: Tracklist = [
     duration_ms: 302342,
     date_added: "2020-06-08T04:00:01.673Z",
     waveform_url: "https://wave.sndcdn.com/HHygfG4Qi7yp_m.png",
-    permalink_url: "https://soundcloud.com/jeffreyparadise/cruise-control-original"
+    permalink_url:
+      "https://soundcloud.com/jeffreyparadise/cruise-control-original",
   },
   {
     soundcloud_id: 529062921,
@@ -563,7 +621,8 @@ export const tracklist: Tracklist = [
     duration_ms: 328050,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/CgkU8Uhg3kMK_m.png",
-    permalink_url: "https://soundcloud.com/pleasureoflove-la/10-air-zaire-til-the-sun-comes"
+    permalink_url:
+      "https://soundcloud.com/pleasureoflove-la/10-air-zaire-til-the-sun-comes",
   },
   {
     soundcloud_id: 668946575,
@@ -572,7 +631,8 @@ export const tracklist: Tracklist = [
     duration_ms: 277158,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/RhW4U4XJOx5g_m.png",
-    permalink_url: "https://soundcloud.com/frenchtouchvibes/numero27-reve-de-minot"
+    permalink_url:
+      "https://soundcloud.com/frenchtouchvibes/numero27-reve-de-minot",
   },
   {
     soundcloud_id: 308687348,
@@ -581,7 +641,8 @@ export const tracklist: Tracklist = [
     duration_ms: 144627,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/NekJH9ua5Xdq_m.png",
-    permalink_url: "https://soundcloud.com/djksfrench/erotic-soulmachine-original-mixclip-comin-soon-juno"
+    permalink_url:
+      "https://soundcloud.com/djksfrench/erotic-soulmachine-original-mixclip-comin-soon-juno",
   },
   {
     soundcloud_id: 321594370,
@@ -590,7 +651,7 @@ export const tracklist: Tracklist = [
     duration_ms: 221957,
     date_added: "2020-05-29T22:07:08.511Z",
     waveform_url: "https://wave.sndcdn.com/HpI93MMCTdqs_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/hunter-on-my-side"
+    permalink_url: "https://soundcloud.com/clubcoral/hunter-on-my-side",
   },
   {
     soundcloud_id: 322842684,
@@ -599,7 +660,8 @@ export const tracklist: Tracklist = [
     duration_ms: 260700,
     date_added: "2020-05-29T22:07:08.511Z",
     waveform_url: "https://wave.sndcdn.com/9mshdGJx1UGc_m.png",
-    permalink_url: "https://soundcloud.com/splendydrecords/forgottenfunk-cant-find-a-love-original-mix"
+    permalink_url:
+      "https://soundcloud.com/splendydrecords/forgottenfunk-cant-find-a-love-original-mix",
   },
   {
     soundcloud_id: 425243205,
@@ -608,7 +670,8 @@ export const tracklist: Tracklist = [
     duration_ms: 311696,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/rs5ja4S0f6VE_m.png",
-    permalink_url: "https://soundcloud.com/1codycurrie/change-the-glow-of-love-cody-currie-re-work"
+    permalink_url:
+      "https://soundcloud.com/1codycurrie/change-the-glow-of-love-cody-currie-re-work",
   },
   {
     soundcloud_id: 313614240,
@@ -617,7 +680,7 @@ export const tracklist: Tracklist = [
     duration_ms: 277863,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/jUrMY3VCrQ4X_m.png",
-    permalink_url: "https://soundcloud.com/agrume_music/cocktail-1"
+    permalink_url: "https://soundcloud.com/agrume_music/cocktail-1",
   },
   {
     soundcloud_id: 930754876,
@@ -626,7 +689,8 @@ export const tracklist: Tracklist = [
     duration_ms: 438282,
     date_added: "2020-11-25T02:32:03.725Z",
     waveform_url: "https://wave.sndcdn.com/9NvjVFImhX2N_m.png",
-    permalink_url: "https://soundcloud.com/gettoknowedits/get-to-know-mojo-rising"
+    permalink_url:
+      "https://soundcloud.com/gettoknowedits/get-to-know-mojo-rising",
   },
   {
     soundcloud_id: 429214212,
@@ -635,7 +699,8 @@ export const tracklist: Tracklist = [
     duration_ms: 289359,
     date_added: "2020-07-14T01:32:05.668Z",
     waveform_url: "https://wave.sndcdn.com/r3a8mfD8lYN5_m.png",
-    permalink_url: "https://soundcloud.com/dancingastronaut/exclusive-mind-enterprises-shake-breakbot-remix"
+    permalink_url:
+      "https://soundcloud.com/dancingastronaut/exclusive-mind-enterprises-shake-breakbot-remix",
   },
   {
     soundcloud_id: 614637471,
@@ -644,7 +709,7 @@ export const tracklist: Tracklist = [
     duration_ms: 161765,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/WqheDpOajEVy_m.png",
-    permalink_url: "https://soundcloud.com/iamalexcph/say-hi-from-me"
+    permalink_url: "https://soundcloud.com/iamalexcph/say-hi-from-me",
   },
   {
     soundcloud_id: 494112822,
@@ -653,7 +718,8 @@ export const tracklist: Tracklist = [
     duration_ms: 246148,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/V2JANLZWbylP_m.png",
-    permalink_url: "https://soundcloud.com/closedparadise/nu-shooz-i-cant-wait-closed-paradise-edit"
+    permalink_url:
+      "https://soundcloud.com/closedparadise/nu-shooz-i-cant-wait-closed-paradise-edit",
   },
   {
     soundcloud_id: 551482236,
@@ -662,7 +728,8 @@ export const tracklist: Tracklist = [
     duration_ms: 468288,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/9HuIiO98K9EV_m.png",
-    permalink_url: "https://soundcloud.com/gettoknowedits/atlantic-starr-circles-get-to-know-edit-free-dl"
+    permalink_url:
+      "https://soundcloud.com/gettoknowedits/atlantic-starr-circles-get-to-know-edit-free-dl",
   },
   {
     soundcloud_id: 511357653,
@@ -671,7 +738,7 @@ export const tracklist: Tracklist = [
     duration_ms: 192121,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/CUa0n3II3ZwZ_m.png",
-    permalink_url: "https://soundcloud.com/dj-tooth8k/flash-paradise"
+    permalink_url: "https://soundcloud.com/dj-tooth8k/flash-paradise",
   },
   {
     soundcloud_id: 639167979,
@@ -680,7 +747,8 @@ export const tracklist: Tracklist = [
     duration_ms: 213021,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/zU1yVmPBHofI_m.png",
-    permalink_url: "https://soundcloud.com/satinjackets/satin-jackets-mirage-anoraak-remix"
+    permalink_url:
+      "https://soundcloud.com/satinjackets/satin-jackets-mirage-anoraak-remix",
   },
   {
     soundcloud_id: 185118866,
@@ -689,7 +757,7 @@ export const tracklist: Tracklist = [
     duration_ms: 364441,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/24mu3tXSoo1q_m.png",
-    permalink_url: "https://soundcloud.com/coutel/coutel-show-me"
+    permalink_url: "https://soundcloud.com/coutel/coutel-show-me",
   },
   {
     soundcloud_id: 215290881,
@@ -698,7 +766,7 @@ export const tracklist: Tracklist = [
     duration_ms: 349210,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/Lsf6lQ316KwB_m.png",
-    permalink_url: "https://soundcloud.com/horeazon/hunter-warm-weather-1"
+    permalink_url: "https://soundcloud.com/horeazon/hunter-warm-weather-1",
   },
   {
     soundcloud_id: 178842933,
@@ -707,7 +775,7 @@ export const tracklist: Tracklist = [
     duration_ms: 162783,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/c7P8rb6ABJLc_m.png",
-    permalink_url: "https://soundcloud.com/yungestbae/anibabe"
+    permalink_url: "https://soundcloud.com/yungestbae/anibabe",
   },
   {
     soundcloud_id: 263228226,
@@ -716,16 +784,18 @@ export const tracklist: Tracklist = [
     duration_ms: 262893,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/ibyqAX2qNTG3_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/tightshirt-cidre-circles"
+    permalink_url: "https://soundcloud.com/clubcoral/tightshirt-cidre-circles",
   },
   {
     soundcloud_id: 94145565,
-    title: "L'après midi - Arno Grieco (Gimmie More Sound L'Anthologie Musicale)",
+    title:
+      "L'après midi - Arno Grieco (Gimmie More Sound L'Anthologie Musicale)",
     artist: "Arno Grieco",
     duration_ms: 266081,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/XgOV3hYmKNIo_m.png",
-    permalink_url: "https://soundcloud.com/arnogrieco/rock-with-you-arno-grieco-1"
+    permalink_url:
+      "https://soundcloud.com/arnogrieco/rock-with-you-arno-grieco-1",
   },
   {
     soundcloud_id: 277189513,
@@ -734,7 +804,7 @@ export const tracklist: Tracklist = [
     duration_ms: 237840,
     date_added: "2021-06-07T19:32:04.223Z",
     waveform_url: "https://wave.sndcdn.com/opn5yiJfiRZM_m.png",
-    permalink_url: "https://soundcloud.com/huntersounds90/lola-theme"
+    permalink_url: "https://soundcloud.com/huntersounds90/lola-theme",
   },
   {
     soundcloud_id: 370044353,
@@ -743,7 +813,8 @@ export const tracklist: Tracklist = [
     duration_ms: 231961,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/F72Lwvgp3SFq_m.png",
-    permalink_url: "https://soundcloud.com/dynamiqueofficial/louis-la-roche-love-dynamique-modernized-edit"
+    permalink_url:
+      "https://soundcloud.com/dynamiqueofficial/louis-la-roche-love-dynamique-modernized-edit",
   },
   {
     soundcloud_id: 917665700,
@@ -752,7 +823,7 @@ export const tracklist: Tracklist = [
     duration_ms: 226743,
     date_added: "2021-01-28T17:32:03.077Z",
     waveform_url: "https://wave.sndcdn.com/uBfllhTxTU7w_m.png",
-    permalink_url: "https://soundcloud.com/sovate/pretend"
+    permalink_url: "https://soundcloud.com/sovate/pretend",
   },
   {
     soundcloud_id: 238967732,
@@ -761,7 +832,7 @@ export const tracklist: Tracklist = [
     duration_ms: 233817,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/6jGE059Ue8JH_m.png",
-    permalink_url: "https://soundcloud.com/venturex/hands-to-myself"
+    permalink_url: "https://soundcloud.com/venturex/hands-to-myself",
   },
   {
     soundcloud_id: 92575485,
@@ -770,7 +841,7 @@ export const tracklist: Tracklist = [
     duration_ms: 273710,
     date_added: "2020-05-29T22:04:23.842Z",
     waveform_url: "https://wave.sndcdn.com/thAz8o5IpO52_m.png",
-    permalink_url: "https://soundcloud.com/basementlove/too-young"
+    permalink_url: "https://soundcloud.com/basementlove/too-young",
   },
   {
     soundcloud_id: 668015180,
@@ -779,7 +850,8 @@ export const tracklist: Tracklist = [
     duration_ms: 191547,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/Bjn7dWmxUnDv_m.png",
-    permalink_url: "https://soundcloud.com/rochemusique/2-juillet-feat-julia-jean"
+    permalink_url:
+      "https://soundcloud.com/rochemusique/2-juillet-feat-julia-jean",
   },
   {
     soundcloud_id: 625887792,
@@ -788,7 +860,8 @@ export const tracklist: Tracklist = [
     duration_ms: 215973,
     date_added: "2020-07-07T19:32:06.175Z",
     waveform_url: "https://wave.sndcdn.com/q786TZzdfUS9_m.png",
-    permalink_url: "https://soundcloud.com/bishiclet/roberta-flack-feel-like-makin-love-bishiclet-edit"
+    permalink_url:
+      "https://soundcloud.com/bishiclet/roberta-flack-feel-like-makin-love-bishiclet-edit",
   },
   {
     soundcloud_id: 238560914,
@@ -797,7 +870,8 @@ export const tracklist: Tracklist = [
     duration_ms: 265793,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/R0Cyq8tPZDxl_m.png",
-    permalink_url: "https://soundcloud.com/ricowright/summer-never-ends-out-now-on-keats-collective-vol6"
+    permalink_url:
+      "https://soundcloud.com/ricowright/summer-never-ends-out-now-on-keats-collective-vol6",
   },
   {
     soundcloud_id: 207120674,
@@ -806,7 +880,8 @@ export const tracklist: Tracklist = [
     duration_ms: 192096,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/t8Bkri3Td7pc_m.png",
-    permalink_url: "https://soundcloud.com/lastisland/porter-robinson-fresh-static-snow-last-island-remixals-master3"
+    permalink_url:
+      "https://soundcloud.com/lastisland/porter-robinson-fresh-static-snow-last-island-remixals-master3",
   },
   {
     soundcloud_id: 1062477094,
@@ -815,7 +890,8 @@ export const tracklist: Tracklist = [
     duration_ms: 296072,
     date_added: "2021-06-20T12:32:02.684Z",
     waveform_url: "https://wave.sndcdn.com/71p5fCO0Cuo2_m.png",
-    permalink_url: "https://soundcloud.com/boogie80-com/noriyo-ikeda-dream-in-the-street-1980"
+    permalink_url:
+      "https://soundcloud.com/boogie80-com/noriyo-ikeda-dream-in-the-street-1980",
   },
   {
     soundcloud_id: 661069610,
@@ -824,7 +900,7 @@ export const tracklist: Tracklist = [
     duration_ms: 245233,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/wpJZ7g56DiKI_m.png",
-    permalink_url: "https://soundcloud.com/aritusmusic/summers-end"
+    permalink_url: "https://soundcloud.com/aritusmusic/summers-end",
   },
   {
     soundcloud_id: 994988017,
@@ -833,7 +909,8 @@ export const tracklist: Tracklist = [
     duration_ms: 267076,
     date_added: "2021-02-28T17:32:04.889Z",
     waveform_url: "https://wave.sndcdn.com/FvmWi34SZCKb_m.png",
-    permalink_url: "https://soundcloud.com/djsupermarkt/lebron-open-up-taken-from-tstd-yacht-disco-edits-3a"
+    permalink_url:
+      "https://soundcloud.com/djsupermarkt/lebron-open-up-taken-from-tstd-yacht-disco-edits-3a",
   },
   {
     soundcloud_id: 137136169,
@@ -842,7 +919,7 @@ export const tracklist: Tracklist = [
     duration_ms: 340250,
     date_added: "2021-01-16T20:32:02.329Z",
     waveform_url: "https://wave.sndcdn.com/HE6XG6wOCnjQ_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/libano-libano"
+    permalink_url: "https://soundcloud.com/stratfordct/libano-libano",
   },
   {
     soundcloud_id: 537204516,
@@ -851,7 +928,8 @@ export const tracklist: Tracklist = [
     duration_ms: 203590,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/eS0woU9yB4uW_m.png",
-    permalink_url: "https://soundcloud.com/satinjackets/satin-jackets-feat-niya-wells-lost-in-japan"
+    permalink_url:
+      "https://soundcloud.com/satinjackets/satin-jackets-feat-niya-wells-lost-in-japan",
   },
   {
     soundcloud_id: 10599459,
@@ -860,7 +938,8 @@ export const tracklist: Tracklist = [
     duration_ms: 306480,
     date_added: "2020-08-07T21:32:04.367Z",
     waveform_url: "https://wave.sndcdn.com/6VHfOYM6boXO_m.png",
-    permalink_url: "https://soundcloud.com/yourb0y/07-dimitri-from-paris-crashers"
+    permalink_url:
+      "https://soundcloud.com/yourb0y/07-dimitri-from-paris-crashers",
   },
   {
     soundcloud_id: 331703863,
@@ -869,7 +948,8 @@ export const tracklist: Tracklist = [
     duration_ms: 242308,
     date_added: "2020-06-08T04:00:24.666Z",
     waveform_url: "https://wave.sndcdn.com/qwdbrjzov9Z4_m.png",
-    permalink_url: "https://soundcloud.com/toolroomrecords/satin-jackets-out-of-my-head-earmilk-exclusive"
+    permalink_url:
+      "https://soundcloud.com/toolroomrecords/satin-jackets-out-of-my-head-earmilk-exclusive",
   },
   {
     soundcloud_id: 1154922097,
@@ -878,7 +958,8 @@ export const tracklist: Tracklist = [
     duration_ms: 222903,
     date_added: "2021-11-26T06:32:02.113Z",
     waveform_url: "https://wave.sndcdn.com/aC2bR07Yxqzh_m.png",
-    permalink_url: "https://soundcloud.com/huntersounds90/hunter-classic-files-when-i-think-of-you"
+    permalink_url:
+      "https://soundcloud.com/huntersounds90/hunter-classic-files-when-i-think-of-you",
   },
   {
     soundcloud_id: 627860241,
@@ -887,7 +968,8 @@ export const tracklist: Tracklist = [
     duration_ms: 279588,
     date_added: "2020-07-13T21:32:05.600Z",
     waveform_url: "https://wave.sndcdn.com/sM3iJjpl4S5p_m.png",
-    permalink_url: "https://soundcloud.com/daveleezr/mistura-do-you-love-me-feat-angela-johnson-jn-disco-blend"
+    permalink_url:
+      "https://soundcloud.com/daveleezr/mistura-do-you-love-me-feat-angela-johnson-jn-disco-blend",
   },
   {
     soundcloud_id: 150402886,
@@ -896,7 +978,7 @@ export const tracklist: Tracklist = [
     duration_ms: 246436,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/12PDvziHlTI0_m.png",
-    permalink_url: "https://soundcloud.com/estateswapperino/tuff-luv-official"
+    permalink_url: "https://soundcloud.com/estateswapperino/tuff-luv-official",
   },
   {
     soundcloud_id: 607219713,
@@ -905,16 +987,18 @@ export const tracklist: Tracklist = [
     duration_ms: 189691,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/KO1qarSfusZA_m.png",
-    permalink_url: "https://soundcloud.com/ekkah/backseat-driver"
+    permalink_url: "https://soundcloud.com/ekkah/backseat-driver",
   },
   {
     soundcloud_id: 20785939,
-    title: "Flight Facilities - Foreign Language feat. Jess (Flight Facilities Extended Mix)",
+    title:
+      "Flight Facilities - Foreign Language feat. Jess (Flight Facilities Extended Mix)",
     artist: "future classic",
     duration_ms: 359215,
     date_added: "2020-07-18T14:32:05.705Z",
     waveform_url: "https://wave.sndcdn.com/A7PdprsQ5rGM_m.png",
-    permalink_url: "https://soundcloud.com/futureclassic/foreign-language-feat-jess-1"
+    permalink_url:
+      "https://soundcloud.com/futureclassic/foreign-language-feat-jess-1",
   },
   {
     soundcloud_id: 595285143,
@@ -923,7 +1007,8 @@ export const tracklist: Tracklist = [
     duration_ms: 268510,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/lD6Rsulhq3BM_m.png",
-    permalink_url: "https://soundcloud.com/sparkly_night/sparkly-night-make-it-right"
+    permalink_url:
+      "https://soundcloud.com/sparkly_night/sparkly-night-make-it-right",
   },
   {
     soundcloud_id: 11919925,
@@ -932,16 +1017,19 @@ export const tracklist: Tracklist = [
     duration_ms: 234146,
     date_added: "2020-05-29T22:04:23.842Z",
     waveform_url: "https://wave.sndcdn.com/kNgLZPjMOMYK_m.png",
-    permalink_url: "https://soundcloud.com/eumigandchinon/pelle-g-childish-delight-eumig"
+    permalink_url:
+      "https://soundcloud.com/eumigandchinon/pelle-g-childish-delight-eumig",
   },
   {
     soundcloud_id: 5320526,
-    title: "Sister Sledge - Thinking Of You  (Dimitri From Paris Remix) (Snippet)",
+    title:
+      "Sister Sledge - Thinking Of You  (Dimitri From Paris Remix) (Snippet)",
     artist: "Dimitri from Paris",
     duration_ms: 155200,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/IGV3YYOv3uyF_m.png",
-    permalink_url: "https://soundcloud.com/dfp/sister-sledge-thinking-of-you-dimitri-from-paris-remix-snippet"
+    permalink_url:
+      "https://soundcloud.com/dfp/sister-sledge-thinking-of-you-dimitri-from-paris-remix-snippet",
   },
   {
     soundcloud_id: 456321444,
@@ -950,7 +1038,8 @@ export const tracklist: Tracklist = [
     duration_ms: 329826,
     date_added: "2020-05-29T22:07:25.256Z",
     waveform_url: "https://wave.sndcdn.com/iKeJoD4v6rwF_m.png",
-    permalink_url: "https://soundcloud.com/boogie80-com/systematic-sure-aint-news-scoopmix-1988"
+    permalink_url:
+      "https://soundcloud.com/boogie80-com/systematic-sure-aint-news-scoopmix-1988",
   },
   {
     soundcloud_id: 315117375,
@@ -959,7 +1048,7 @@ export const tracklist: Tracklist = [
     duration_ms: 233425,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/T4Fx3xDiSVxK_m.png",
-    permalink_url: "https://soundcloud.com/elivebeats/fresh-moves"
+    permalink_url: "https://soundcloud.com/elivebeats/fresh-moves",
   },
   {
     soundcloud_id: 87943423,
@@ -968,7 +1057,8 @@ export const tracklist: Tracklist = [
     duration_ms: 349498,
     date_added: "2020-08-28T18:32:04.558Z",
     waveform_url: "https://wave.sndcdn.com/8so3UlLEj6ce_m.png",
-    permalink_url: "https://soundcloud.com/futureclassic/touch-sensitive-pizza-guy-3"
+    permalink_url:
+      "https://soundcloud.com/futureclassic/touch-sensitive-pizza-guy-3",
   },
   {
     soundcloud_id: 364599812,
@@ -977,7 +1067,7 @@ export const tracklist: Tracklist = [
     duration_ms: 199176,
     date_added: "2020-05-29T22:07:25.256Z",
     waveform_url: "https://wave.sndcdn.com/7s1AOROqu54N_m.png",
-    permalink_url: "https://soundcloud.com/doc-magnus/its-a-mystery"
+    permalink_url: "https://soundcloud.com/doc-magnus/its-a-mystery",
   },
   {
     soundcloud_id: 575936790,
@@ -986,7 +1076,7 @@ export const tracklist: Tracklist = [
     duration_ms: 264540,
     date_added: "2020-07-18T11:32:06.625Z",
     waveform_url: "https://wave.sndcdn.com/6tx3nvPGPiSc_m.png",
-    permalink_url: "https://soundcloud.com/benetbeats/excuse-my-french"
+    permalink_url: "https://soundcloud.com/benetbeats/excuse-my-french",
   },
   {
     soundcloud_id: 643428891,
@@ -995,7 +1085,7 @@ export const tracklist: Tracklist = [
     duration_ms: 201318,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/pASUDNvcVKoo_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/city-nine-no-reason"
+    permalink_url: "https://soundcloud.com/clubcoral/city-nine-no-reason",
   },
   {
     soundcloud_id: 6765162,
@@ -1004,7 +1094,7 @@ export const tracklist: Tracklist = [
     duration_ms: 256200,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/il4Gzx1FhfIj_m.png",
-    permalink_url: "https://soundcloud.com/jnlcinemafunk/jsmooth-change"
+    permalink_url: "https://soundcloud.com/jnlcinemafunk/jsmooth-change",
   },
   {
     soundcloud_id: 988976536,
@@ -1013,7 +1103,8 @@ export const tracklist: Tracklist = [
     duration_ms: 164702,
     date_added: "2021-02-21T02:32:03.183Z",
     waveform_url: "https://wave.sndcdn.com/Ia5yTyTMqfAs_m.png",
-    permalink_url: "https://soundcloud.com/finaldjs/final-djs-something-special"
+    permalink_url:
+      "https://soundcloud.com/finaldjs/final-djs-something-special",
   },
   {
     soundcloud_id: 246743138,
@@ -1022,7 +1113,8 @@ export const tracklist: Tracklist = [
     duration_ms: 401147,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/ERlsJqX6iHVT_m.png",
-    permalink_url: "https://soundcloud.com/luxxly/roman-kouder-patawawa-fly-go-go-bizkitt-remix"
+    permalink_url:
+      "https://soundcloud.com/luxxly/roman-kouder-patawawa-fly-go-go-bizkitt-remix",
   },
   {
     soundcloud_id: 203773993,
@@ -1031,7 +1123,8 @@ export const tracklist: Tracklist = [
     duration_ms: 229192,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/fbF36BWFEZgc_m.png",
-    permalink_url: "https://soundcloud.com/dynamiqueofficial/dynamique-special-reprise"
+    permalink_url:
+      "https://soundcloud.com/dynamiqueofficial/dynamique-special-reprise",
   },
   {
     soundcloud_id: 693770368,
@@ -1040,7 +1133,8 @@ export const tracklist: Tracklist = [
     duration_ms: 267337,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/ClJhMTKPhsKi_m.png",
-    permalink_url: "https://soundcloud.com/satinjackets/satin-jackets-panama-electric-blue"
+    permalink_url:
+      "https://soundcloud.com/satinjackets/satin-jackets-panama-electric-blue",
   },
   {
     soundcloud_id: 234788183,
@@ -1049,7 +1143,8 @@ export const tracklist: Tracklist = [
     duration_ms: 397332,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/wsftvDmooW5m_m.png",
-    permalink_url: "https://soundcloud.com/coutel/sharon-redd-you-got-my-love-coutel-edit"
+    permalink_url:
+      "https://soundcloud.com/coutel/sharon-redd-you-got-my-love-coutel-edit",
   },
   {
     soundcloud_id: 223587576,
@@ -1058,7 +1153,8 @@ export const tracklist: Tracklist = [
     duration_ms: 592355,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/iiwK0nFIszns_m.png",
-    permalink_url: "https://soundcloud.com/tiko-nazarashvili/tensnake-holding-back-my-love-tiger-woods-remix"
+    permalink_url:
+      "https://soundcloud.com/tiko-nazarashvili/tensnake-holding-back-my-love-tiger-woods-remix",
   },
   {
     soundcloud_id: 295342338,
@@ -1067,7 +1163,8 @@ export const tracklist: Tracklist = [
     duration_ms: 202963,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/6UQe77EHzEoN_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/special-q-pray-for-frenchtouch"
+    permalink_url:
+      "https://soundcloud.com/stratfordct/special-q-pray-for-frenchtouch",
   },
   {
     soundcloud_id: 293241710,
@@ -1076,7 +1173,7 @@ export const tracklist: Tracklist = [
     duration_ms: 177805,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/ELCuz7W1JExc_m.png",
-    permalink_url: "https://soundcloud.com/sunrise-collective/pop-up-seriously"
+    permalink_url: "https://soundcloud.com/sunrise-collective/pop-up-seriously",
   },
   {
     soundcloud_id: 18825208,
@@ -1085,7 +1182,8 @@ export const tracklist: Tracklist = [
     duration_ms: 349781,
     date_added: "2020-05-29T22:04:23.842Z",
     waveform_url: "https://wave.sndcdn.com/ow3Lrg6Gdadp_m.png",
-    permalink_url: "https://soundcloud.com/shinydiscoclub/cherokee-take-care-of-you"
+    permalink_url:
+      "https://soundcloud.com/shinydiscoclub/cherokee-take-care-of-you",
   },
   {
     soundcloud_id: 236823306,
@@ -1094,7 +1192,7 @@ export const tracklist: Tracklist = [
     duration_ms: 280031,
     date_added: "2020-07-18T13:32:06.032Z",
     waveform_url: "https://wave.sndcdn.com/GqWxenOdeNJy_m.png",
-    permalink_url: "https://soundcloud.com/fig-edits/keep-on"
+    permalink_url: "https://soundcloud.com/fig-edits/keep-on",
   },
   {
     soundcloud_id: 612986793,
@@ -1103,7 +1201,8 @@ export const tracklist: Tracklist = [
     duration_ms: 234340,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/Sxw5YLiNtX3H_m.png",
-    permalink_url: "https://soundcloud.com/solidiscos/le-phunk-beach-hut-sss003-available-at-bandcamp"
+    permalink_url:
+      "https://soundcloud.com/solidiscos/le-phunk-beach-hut-sss003-available-at-bandcamp",
   },
   {
     soundcloud_id: 177542105,
@@ -1112,7 +1211,8 @@ export const tracklist: Tracklist = [
     duration_ms: 350673,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/RGVcU5nMWkOm_m.png",
-    permalink_url: "https://soundcloud.com/soft-touch/soft-touch-swim-in-the-night-chrome-canyon-remix"
+    permalink_url:
+      "https://soundcloud.com/soft-touch/soft-touch-swim-in-the-night-chrome-canyon-remix",
   },
   {
     soundcloud_id: 217608008,
@@ -1121,7 +1221,8 @@ export const tracklist: Tracklist = [
     duration_ms: 251007,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/3WodGV5AU7y4_m.png",
-    permalink_url: "https://soundcloud.com/midnight-side/hunter-come-back-to-me"
+    permalink_url:
+      "https://soundcloud.com/midnight-side/hunter-come-back-to-me",
   },
   {
     soundcloud_id: 332714631,
@@ -1130,7 +1231,8 @@ export const tracklist: Tracklist = [
     duration_ms: 262137,
     date_added: "2020-05-29T22:07:08.511Z",
     waveform_url: "https://wave.sndcdn.com/l4117B4zCrMi_m.png",
-    permalink_url: "https://soundcloud.com/funk-leblanc/never-be-like-you-funk-leblanc-remix"
+    permalink_url:
+      "https://soundcloud.com/funk-leblanc/never-be-like-you-funk-leblanc-remix",
   },
   {
     soundcloud_id: 11866693,
@@ -1139,7 +1241,7 @@ export const tracklist: Tracklist = [
     duration_ms: 305303,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/4xCODCphHPai_m.png",
-    permalink_url: "https://soundcloud.com/calliopeforce/sanibel-island"
+    permalink_url: "https://soundcloud.com/calliopeforce/sanibel-island",
   },
   {
     soundcloud_id: 206334901,
@@ -1148,7 +1250,8 @@ export const tracklist: Tracklist = [
     duration_ms: 383852,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/Tt7raiqkHYq0_m.png",
-    permalink_url: "https://soundcloud.com/feedelity/lindstrom-and-grace-hall-home-tonight-hnny-remix-1"
+    permalink_url:
+      "https://soundcloud.com/feedelity/lindstrom-and-grace-hall-home-tonight-hnny-remix-1",
   },
   {
     soundcloud_id: 183905937,
@@ -1157,7 +1260,7 @@ export const tracklist: Tracklist = [
     duration_ms: 250746,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/ot4v9MqSOnLn_m.png",
-    permalink_url: "https://soundcloud.com/vanilla/you"
+    permalink_url: "https://soundcloud.com/vanilla/you",
   },
   {
     soundcloud_id: 491562069,
@@ -1166,7 +1269,8 @@ export const tracklist: Tracklist = [
     duration_ms: 207047,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/pDiJZLqcKqlq_m.png",
-    permalink_url: "https://soundcloud.com/elektricdreams/i-like-you-but-i-just-wanna-dance"
+    permalink_url:
+      "https://soundcloud.com/elektricdreams/i-like-you-but-i-just-wanna-dance",
   },
   {
     soundcloud_id: 158895466,
@@ -1175,7 +1279,8 @@ export const tracklist: Tracklist = [
     duration_ms: 379176,
     date_added: "2021-01-31T15:32:02.995Z",
     waveform_url: "https://wave.sndcdn.com/Owb22SuV4ElO_m.png",
-    permalink_url: "https://soundcloud.com/glen-check/paint-it-gold-anoraak-remix"
+    permalink_url:
+      "https://soundcloud.com/glen-check/paint-it-gold-anoraak-remix",
   },
   {
     soundcloud_id: 902132128,
@@ -1184,7 +1289,8 @@ export const tracklist: Tracklist = [
     duration_ms: 318459,
     date_added: "2021-02-28T17:32:04.889Z",
     waveform_url: "https://wave.sndcdn.com/JwBpSnngEAlY_m.png",
-    permalink_url: "https://soundcloud.com/djsupermarkt/glamour-hammer-is-it-trueyuksek-remix"
+    permalink_url:
+      "https://soundcloud.com/djsupermarkt/glamour-hammer-is-it-trueyuksek-remix",
   },
   {
     soundcloud_id: 259701053,
@@ -1193,7 +1299,7 @@ export const tracklist: Tracklist = [
     duration_ms: 293016,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/yApbeo6ljU1d_m.png",
-    permalink_url: "https://soundcloud.com/gettoknowedits/best-of-you"
+    permalink_url: "https://soundcloud.com/gettoknowedits/best-of-you",
   },
   {
     soundcloud_id: 457255998,
@@ -1202,7 +1308,8 @@ export const tracklist: Tracklist = [
     duration_ms: 353156,
     date_added: "2021-02-01T01:32:02.732Z",
     waveform_url: "https://wave.sndcdn.com/ZQvdi1Xw5o2u_m.png",
-    permalink_url: "https://soundcloud.com/houseum/premiere-sebb-junior-disco-light-la-vie-dartiste-music"
+    permalink_url:
+      "https://soundcloud.com/houseum/premiere-sebb-junior-disco-light-la-vie-dartiste-music",
   },
   {
     soundcloud_id: 206865364,
@@ -1211,16 +1318,18 @@ export const tracklist: Tracklist = [
     duration_ms: 164638,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/LIxZax5nKRBb_m.png",
-    permalink_url: "https://soundcloud.com/yungestbae/nobody"
+    permalink_url: "https://soundcloud.com/yungestbae/nobody",
   },
   {
     soundcloud_id: 357046574,
-    title: "Daryl Hall & John Oates - I Can't Go For That (No Can Do) [Pomo Remix]",
+    title:
+      "Daryl Hall & John Oates - I Can't Go For That (No Can Do) [Pomo Remix]",
     artist: "Pomo",
     duration_ms: 307880,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/06Ozh6Atb20B_m.png",
-    permalink_url: "https://soundcloud.com/pomobeats/daryl-hall-john-oates-i-cant-go-for-that-no-can-do-pomo-remix"
+    permalink_url:
+      "https://soundcloud.com/pomobeats/daryl-hall-john-oates-i-cant-go-for-that-no-can-do-pomo-remix",
   },
   {
     soundcloud_id: 683689563,
@@ -1229,7 +1338,7 @@ export const tracklist: Tracklist = [
     duration_ms: 168139,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/Ri6bbprhynfv_m.png",
-    permalink_url: "https://soundcloud.com/long-boy/bungalow-wbg-1"
+    permalink_url: "https://soundcloud.com/long-boy/bungalow-wbg-1",
   },
   {
     soundcloud_id: 103475406,
@@ -1238,7 +1347,7 @@ export const tracklist: Tracklist = [
     duration_ms: 215347,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/1GHb5o0JxBF6_m.png",
-    permalink_url: "https://soundcloud.com/esbe1988/didnt-i"
+    permalink_url: "https://soundcloud.com/esbe1988/didnt-i",
   },
   {
     soundcloud_id: 483726477,
@@ -1247,7 +1356,8 @@ export const tracklist: Tracklist = [
     duration_ms: 196092,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/IwsxZkvfvkhK_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/stereocool-dj-eq-caribbean-dream"
+    permalink_url:
+      "https://soundcloud.com/clubcoral/stereocool-dj-eq-caribbean-dream",
   },
   {
     soundcloud_id: 154298389,
@@ -1256,7 +1366,8 @@ export const tracklist: Tracklist = [
     duration_ms: 265271,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/9Oa3cpHNOY7J_m.png",
-    permalink_url: "https://soundcloud.com/rosevillemusic/yazid-le-voyageur-its-love"
+    permalink_url:
+      "https://soundcloud.com/rosevillemusic/yazid-le-voyageur-its-love",
   },
   {
     soundcloud_id: 131027339,
@@ -1265,7 +1376,7 @@ export const tracklist: Tracklist = [
     duration_ms: 577960,
     date_added: "2021-12-17T18:32:03.073Z",
     waveform_url: "https://wave.sndcdn.com/KbGWXA39F4V5_m.png",
-    permalink_url: "https://soundcloud.com/stefan-peinemann/jv-editchannel-xxx"
+    permalink_url: "https://soundcloud.com/stefan-peinemann/jv-editchannel-xxx",
   },
   {
     soundcloud_id: 306538263,
@@ -1274,7 +1385,8 @@ export const tracklist: Tracklist = [
     duration_ms: 436155,
     date_added: "2020-05-29T22:16:33.326Z",
     waveform_url: "https://wave.sndcdn.com/dwjZlBbAHkyB_m.png",
-    permalink_url: "https://soundcloud.com/casual-connection/love-anymore-casual-connection-rework"
+    permalink_url:
+      "https://soundcloud.com/casual-connection/love-anymore-casual-connection-rework",
   },
   {
     soundcloud_id: 171943041,
@@ -1283,7 +1395,7 @@ export const tracklist: Tracklist = [
     duration_ms: 221878,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/pPQblOo11kgM_m.png",
-    permalink_url: "https://soundcloud.com/ekkah/last-chance-to-dance"
+    permalink_url: "https://soundcloud.com/ekkah/last-chance-to-dance",
   },
   {
     soundcloud_id: 106030779,
@@ -1292,7 +1404,8 @@ export const tracklist: Tracklist = [
     duration_ms: 277890,
     date_added: "2020-05-29T22:04:23.842Z",
     waveform_url: "https://wave.sndcdn.com/p2XI2vYm6rSS_m.png",
-    permalink_url: "https://soundcloud.com/chloexmartini/brownstone-if-you-love-me"
+    permalink_url:
+      "https://soundcloud.com/chloexmartini/brownstone-if-you-love-me",
   },
   {
     soundcloud_id: 838290469,
@@ -1301,25 +1414,29 @@ export const tracklist: Tracklist = [
     duration_ms: 207177,
     date_added: "2020-08-11T17:32:04.422Z",
     waveform_url: "https://wave.sndcdn.com/fC8SmY7bKEdV_m.png",
-    permalink_url: "https://soundcloud.com/djfryer/b2-jerry-blacksheer-defected"
+    permalink_url:
+      "https://soundcloud.com/djfryer/b2-jerry-blacksheer-defected",
   },
   {
     soundcloud_id: 63648251,
-    title: "Laberge - Just Don't Let Go (Definition \"True Love\" Remix) [UNOFFICIAL]",
+    title:
+      'Laberge - Just Don\'t Let Go (Definition "True Love" Remix) [UNOFFICIAL]',
     artist: "Definition",
     duration_ms: 375127,
     date_added: "2020-05-29T22:04:23.842Z",
     waveform_url: "https://wave.sndcdn.com/Vmi0KKenUA5R_m.png",
-    permalink_url: "https://soundcloud.com/definitionpowa/laberge-just-dont-let-go"
+    permalink_url:
+      "https://soundcloud.com/definitionpowa/laberge-just-dont-let-go",
   },
   {
     soundcloud_id: 1106129992,
     title: "McFadden & Whitehead - Ain't No Stoppin' Us Now (Dj ''S'' Remix)",
-    artist: "Dj \"S\"",
+    artist: 'Dj "S"',
     duration_ms: 410619,
     date_added: "2021-08-18T23:32:02.748Z",
     waveform_url: "https://wave.sndcdn.com/AIo1xTm9vHkd_m.png",
-    permalink_url: "https://soundcloud.com/deejay-stathis/mcfadden-whitehead-aint-no-stoppin-us-now-dj-s-remix"
+    permalink_url:
+      "https://soundcloud.com/deejay-stathis/mcfadden-whitehead-aint-no-stoppin-us-now-dj-s-remix",
   },
   {
     soundcloud_id: 586958652,
@@ -1328,7 +1445,7 @@ export const tracklist: Tracklist = [
     duration_ms: 136240,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/8pA6RHqFrsuF_m.png",
-    permalink_url: "https://soundcloud.com/barbwalters/island-dreams"
+    permalink_url: "https://soundcloud.com/barbwalters/island-dreams",
   },
   {
     soundcloud_id: 1136343583,
@@ -1337,7 +1454,8 @@ export const tracklist: Tracklist = [
     duration_ms: 302158,
     date_added: "2021-10-05T11:32:02.547Z",
     waveform_url: "https://wave.sndcdn.com/ND1eV8YoLRyp_m.png",
-    permalink_url: "https://soundcloud.com/spa-in-disco/spa162-kenwork-the-heart-soul-nu-disco-mix"
+    permalink_url:
+      "https://soundcloud.com/spa-in-disco/spa162-kenwork-the-heart-soul-nu-disco-mix",
   },
   {
     soundcloud_id: 620330775,
@@ -1346,7 +1464,7 @@ export const tracklist: Tracklist = [
     duration_ms: 192827,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/ErdaEyN9XHeY_m.png",
-    permalink_url: "https://soundcloud.com/tuxedofunk/the-tuxedo-way"
+    permalink_url: "https://soundcloud.com/tuxedofunk/the-tuxedo-way",
   },
   {
     soundcloud_id: 377747786,
@@ -1355,7 +1473,7 @@ export const tracklist: Tracklist = [
     duration_ms: 298267,
     date_added: "2020-05-29T22:07:25.256Z",
     waveform_url: "https://wave.sndcdn.com/FxHjcm1LlpKD_m.png",
-    permalink_url: "https://soundcloud.com/disco_bazz/qualia-original-mix"
+    permalink_url: "https://soundcloud.com/disco_bazz/qualia-original-mix",
   },
   {
     soundcloud_id: 288705901,
@@ -1364,7 +1482,8 @@ export const tracklist: Tracklist = [
     duration_ms: 258583,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/zMO5oY5a0Trv_m.png",
-    permalink_url: "https://soundcloud.com/ghostsofvenice/le-youth-me-without-you-ghosts-of-venice-remix"
+    permalink_url:
+      "https://soundcloud.com/ghostsofvenice/le-youth-me-without-you-ghosts-of-venice-remix",
   },
   {
     soundcloud_id: 995409070,
@@ -1373,16 +1492,18 @@ export const tracklist: Tracklist = [
     duration_ms: 244376,
     date_added: "2021-03-04T18:32:03.216Z",
     waveform_url: "https://wave.sndcdn.com/tWJV8bUi840a_m.png",
-    permalink_url: "https://soundcloud.com/boogie80-com/bill-space-lady-1983"
+    permalink_url: "https://soundcloud.com/boogie80-com/bill-space-lady-1983",
   },
   {
     soundcloud_id: 150396619,
-    title: "The Pointer Sisters - He's So Shy (Butch le Butch Rework) FREE DOWNLOAD",
+    title:
+      "The Pointer Sisters - He's So Shy (Butch le Butch Rework) FREE DOWNLOAD",
     artist: "Butch le Butch",
     duration_ms: 495980,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/FhFfSwYjlHKY_m.png",
-    permalink_url: "https://soundcloud.com/butch_le_butch/butch-le-butch-hes-so-shy"
+    permalink_url:
+      "https://soundcloud.com/butch_le_butch/butch-le-butch-hes-so-shy",
   },
   {
     soundcloud_id: 676257314,
@@ -1391,7 +1512,7 @@ export const tracklist: Tracklist = [
     duration_ms: 216182,
     date_added: "2021-05-12T01:32:02.937Z",
     waveform_url: "https://wave.sndcdn.com/cZqyVEMwPNyn_m.png",
-    permalink_url: "https://soundcloud.com/shesaiddisco/found-my-light"
+    permalink_url: "https://soundcloud.com/shesaiddisco/found-my-light",
   },
   {
     soundcloud_id: 364883684,
@@ -1400,7 +1521,7 @@ export const tracklist: Tracklist = [
     duration_ms: 214432,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/RKSglHistsHQ_m.png",
-    permalink_url: "https://soundcloud.com/mynameofficial/mirage"
+    permalink_url: "https://soundcloud.com/mynameofficial/mirage",
   },
   {
     soundcloud_id: 7781617,
@@ -1409,7 +1530,7 @@ export const tracklist: Tracklist = [
     duration_ms: 407272,
     date_added: "2020-07-13T20:32:05.523Z",
     waveform_url: "https://wave.sndcdn.com/EEGyF7yLuICA_m.png",
-    permalink_url: "https://soundcloud.com/weareoliver/oliver-all-night"
+    permalink_url: "https://soundcloud.com/weareoliver/oliver-all-night",
   },
   {
     soundcloud_id: 587471436,
@@ -1418,7 +1539,7 @@ export const tracklist: Tracklist = [
     duration_ms: 83441,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/Yg2ExuUpMQSI_m.png",
-    permalink_url: "https://soundcloud.com/melon-ade/6-sunset-soul"
+    permalink_url: "https://soundcloud.com/melon-ade/6-sunset-soul",
   },
   {
     soundcloud_id: 2906106,
@@ -1427,7 +1548,8 @@ export const tracklist: Tracklist = [
     duration_ms: 373091,
     date_added: "2020-10-22T16:32:03.607Z",
     waveform_url: "https://wave.sndcdn.com/AC3Bwywulb5X_m.png",
-    permalink_url: "https://soundcloud.com/dfp/i-want-you-back-dimitri-from-paris-super-heavy-funk-brakes-remix"
+    permalink_url:
+      "https://soundcloud.com/dfp/i-want-you-back-dimitri-from-paris-super-heavy-funk-brakes-remix",
   },
   {
     soundcloud_id: 498431541,
@@ -1436,7 +1558,8 @@ export const tracklist: Tracklist = [
     duration_ms: 213073,
     date_added: "2020-06-08T04:00:24.666Z",
     waveform_url: "https://wave.sndcdn.com/0x5g82x4GQF0_m.png",
-    permalink_url: "https://soundcloud.com/discorazor/vulfpeck-backpocket-discorazor-remix"
+    permalink_url:
+      "https://soundcloud.com/discorazor/vulfpeck-backpocket-discorazor-remix",
   },
   {
     soundcloud_id: 673501004,
@@ -1445,7 +1568,8 @@ export const tracklist: Tracklist = [
     duration_ms: 333719,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/3GjFRAiUt58G_m.png",
-    permalink_url: "https://soundcloud.com/midnight-riot-records/get-to-know-better-love-ft-andre-espeut-babert-remix-mp3"
+    permalink_url:
+      "https://soundcloud.com/midnight-riot-records/get-to-know-better-love-ft-andre-espeut-babert-remix-mp3",
   },
   {
     soundcloud_id: 563377599,
@@ -1454,7 +1578,8 @@ export const tracklist: Tracklist = [
     duration_ms: 276792,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/NMEkzGYxsNIt_m.png",
-    permalink_url: "https://soundcloud.com/satinjackets/satin-jackets-feat-panama-automatic"
+    permalink_url:
+      "https://soundcloud.com/satinjackets/satin-jackets-feat-panama-automatic",
   },
   {
     soundcloud_id: 191446195,
@@ -1463,7 +1588,7 @@ export const tracklist: Tracklist = [
     duration_ms: 304825,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/maYBmq5VnKGN_m.png",
-    permalink_url: "https://soundcloud.com/shesaiddisco/gold-shore"
+    permalink_url: "https://soundcloud.com/shesaiddisco/gold-shore",
   },
   {
     soundcloud_id: 502946796,
@@ -1472,7 +1597,7 @@ export const tracklist: Tracklist = [
     duration_ms: 232223,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/1TNg4JtlVx99_m.png",
-    permalink_url: "https://soundcloud.com/escort-records/escort-slide-1"
+    permalink_url: "https://soundcloud.com/escort-records/escort-slide-1",
   },
   {
     soundcloud_id: 315373057,
@@ -1481,7 +1606,7 @@ export const tracklist: Tracklist = [
     duration_ms: 401852,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/lOgs2kuRbcW6_m.png",
-    permalink_url: "https://soundcloud.com/hotnatured/benediction-main-vocal"
+    permalink_url: "https://soundcloud.com/hotnatured/benediction-main-vocal",
   },
   {
     soundcloud_id: 875796088,
@@ -1490,7 +1615,7 @@ export const tracklist: Tracklist = [
     duration_ms: 117290,
     date_added: "2021-01-28T17:32:03.077Z",
     waveform_url: "https://wave.sndcdn.com/TENFDNMrVPt9_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/basement-love-your-love"
+    permalink_url: "https://soundcloud.com/stratfordct/basement-love-your-love",
   },
   {
     soundcloud_id: 515132334,
@@ -1499,7 +1624,8 @@ export const tracklist: Tracklist = [
     duration_ms: 518840,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/6Rk6xO7h8hVr_m.png",
-    permalink_url: "https://soundcloud.com/gettoknowedits/loves-coming-at-ya-melba-moore-get-to-know-edit"
+    permalink_url:
+      "https://soundcloud.com/gettoknowedits/loves-coming-at-ya-melba-moore-get-to-know-edit",
   },
   {
     soundcloud_id: 614538435,
@@ -1508,7 +1634,8 @@ export const tracklist: Tracklist = [
     duration_ms: 392448,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/0cZKcd3crnpU_m.png",
-    permalink_url: "https://soundcloud.com/ziggy_phunk/ziggy-phunk-serious-soulmates"
+    permalink_url:
+      "https://soundcloud.com/ziggy_phunk/ziggy-phunk-serious-soulmates",
   },
   {
     soundcloud_id: 95769018,
@@ -1517,7 +1644,8 @@ export const tracklist: Tracklist = [
     duration_ms: 278595,
     date_added: "2021-03-28T14:32:04.167Z",
     waveform_url: "https://wave.sndcdn.com/DFoCPvThOiRR_m.png",
-    permalink_url: "https://soundcloud.com/thomas-tonfeld/younker-sunset-one-thomas"
+    permalink_url:
+      "https://soundcloud.com/thomas-tonfeld/younker-sunset-one-thomas",
   },
   {
     soundcloud_id: 403393824,
@@ -1526,7 +1654,8 @@ export const tracklist: Tracklist = [
     duration_ms: 192670,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/bloMuOZrc639_m.png",
-    permalink_url: "https://soundcloud.com/eskimorecordings/cavego-var-i-oyer-1"
+    permalink_url:
+      "https://soundcloud.com/eskimorecordings/cavego-var-i-oyer-1",
   },
   {
     soundcloud_id: 296502644,
@@ -1535,7 +1664,8 @@ export const tracklist: Tracklist = [
     duration_ms: 385629,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/kUKqp81zYACQ_m.png",
-    permalink_url: "https://soundcloud.com/the-ransom-note/premiere-phil-gerus-make-time-true-romance"
+    permalink_url:
+      "https://soundcloud.com/the-ransom-note/premiere-phil-gerus-make-time-true-romance",
   },
   {
     soundcloud_id: 1061717566,
@@ -1544,7 +1674,8 @@ export const tracklist: Tracklist = [
     duration_ms: 188317,
     date_added: "2021-06-08T12:32:04.359Z",
     waveform_url: "https://wave.sndcdn.com/6tSVSdrL3puO_m.png",
-    permalink_url: "https://soundcloud.com/funk-leblanc/waves-with-you-edes-remix"
+    permalink_url:
+      "https://soundcloud.com/funk-leblanc/waves-with-you-edes-remix",
   },
   {
     soundcloud_id: 653100944,
@@ -1553,7 +1684,8 @@ export const tracklist: Tracklist = [
     duration_ms: 298659,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/b82IYpF6MlAt_m.png",
-    permalink_url: "https://soundcloud.com/bonfirerecords/fancy-feelings-nyla-feat-anya-marina"
+    permalink_url:
+      "https://soundcloud.com/bonfirerecords/fancy-feelings-nyla-feat-anya-marina",
   },
   {
     soundcloud_id: 723440335,
@@ -1562,7 +1694,8 @@ export const tracklist: Tracklist = [
     duration_ms: 168882,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/9LnDUHQWZrjR_m.png",
-    permalink_url: "https://soundcloud.com/sundaesauuce/bonus-points-never-enough"
+    permalink_url:
+      "https://soundcloud.com/sundaesauuce/bonus-points-never-enough",
   },
   {
     soundcloud_id: 837177844,
@@ -1571,7 +1704,8 @@ export const tracklist: Tracklist = [
     duration_ms: 470204,
     date_added: "2020-12-24T17:32:03.815Z",
     waveform_url: "https://wave.sndcdn.com/4b8UgGdE93vt_m.png",
-    permalink_url: "https://soundcloud.com/thereflex/donny-hathaway-someday-well-all-be-free-the-reflex-revision"
+    permalink_url:
+      "https://soundcloud.com/thereflex/donny-hathaway-someday-well-all-be-free-the-reflex-revision",
   },
   {
     soundcloud_id: 207148136,
@@ -1580,7 +1714,7 @@ export const tracklist: Tracklist = [
     duration_ms: 187810,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/sGmwbhkXU1go_m.png",
-    permalink_url: "https://soundcloud.com/okidokimackintosh/cherry-pepsi"
+    permalink_url: "https://soundcloud.com/okidokimackintosh/cherry-pepsi",
   },
   {
     soundcloud_id: 552267189,
@@ -1589,7 +1723,7 @@ export const tracklist: Tracklist = [
     duration_ms: 154189,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/5ulOMQ4TUpIK_m.png",
-    permalink_url: "https://soundcloud.com/antgry/antgry-1997"
+    permalink_url: "https://soundcloud.com/antgry/antgry-1997",
   },
   {
     soundcloud_id: 224789187,
@@ -1598,7 +1732,7 @@ export const tracklist: Tracklist = [
     duration_ms: 240035,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/BQYYL8hFaM9h_m.png",
-    permalink_url: "https://soundcloud.com/vanilla/swept-away"
+    permalink_url: "https://soundcloud.com/vanilla/swept-away",
   },
   {
     soundcloud_id: 88644617,
@@ -1607,7 +1741,7 @@ export const tracklist: Tracklist = [
     duration_ms: 270575,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/u05uQbwFTsKt_m.png",
-    permalink_url: "https://soundcloud.com/heartcake/roman-damour-you-are-my"
+    permalink_url: "https://soundcloud.com/heartcake/roman-damour-you-are-my",
   },
   {
     soundcloud_id: 313234053,
@@ -1616,7 +1750,8 @@ export const tracklist: Tracklist = [
     duration_ms: 295315,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/GsQL0wjTfbzX_m.png",
-    permalink_url: "https://soundcloud.com/frenchtouchvibes/hunter-cant-be-the-same"
+    permalink_url:
+      "https://soundcloud.com/frenchtouchvibes/hunter-cant-be-the-same",
   },
   {
     soundcloud_id: 314086214,
@@ -1625,7 +1760,8 @@ export const tracklist: Tracklist = [
     duration_ms: 369066,
     date_added: "2021-04-24T20:32:03.514Z",
     waveform_url: "https://wave.sndcdn.com/Rz36PRg0X8Kd_m.png",
-    permalink_url: "https://soundcloud.com/coastal-haze/pacific-coliseum-ocean-city"
+    permalink_url:
+      "https://soundcloud.com/coastal-haze/pacific-coliseum-ocean-city",
   },
   {
     soundcloud_id: 670747199,
@@ -1634,16 +1770,18 @@ export const tracklist: Tracklist = [
     duration_ms: 185642,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/YUadhfewisKi_m.png",
-    permalink_url: "https://soundcloud.com/poetic-ally/teenage-sad-club"
+    permalink_url: "https://soundcloud.com/poetic-ally/teenage-sad-club",
   },
   {
     soundcloud_id: 290263933,
-    title: "Premiere: Two Door Cinema Club 'Bad Decisions' (Purple Disco Machine Remix)",
+    title:
+      "Premiere: Two Door Cinema Club 'Bad Decisions' (Purple Disco Machine Remix)",
     artist: "Mixmag",
     duration_ms: 465100,
     date_added: "2020-05-29T22:11:35.124Z",
     waveform_url: "https://wave.sndcdn.com/JLtTtZLDlVyL_m.png",
-    permalink_url: "https://soundcloud.com/mixmag-1/premiere-two-door-cinema-club-bad-decisions-purple-disco-machine-remix"
+    permalink_url:
+      "https://soundcloud.com/mixmag-1/premiere-two-door-cinema-club-bad-decisions-purple-disco-machine-remix",
   },
   {
     soundcloud_id: 325078201,
@@ -1652,7 +1790,8 @@ export const tracklist: Tracklist = [
     duration_ms: 217097,
     date_added: "2020-05-29T22:07:08.511Z",
     waveform_url: "https://wave.sndcdn.com/kiAWcQvmaCne_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/hunter-forever-young-viciousi-87-remix"
+    permalink_url:
+      "https://soundcloud.com/clubcoral/hunter-forever-young-viciousi-87-remix",
   },
   {
     soundcloud_id: 243376591,
@@ -1661,7 +1800,8 @@ export const tracklist: Tracklist = [
     duration_ms: 240087,
     date_added: "2020-07-07T19:32:06.175Z",
     waveform_url: "https://wave.sndcdn.com/vK5Z8TdQZBI7_m.png",
-    permalink_url: "https://soundcloud.com/specialqmusic/increase-your-patience-original-mix-lhama-hipster-records"
+    permalink_url:
+      "https://soundcloud.com/specialqmusic/increase-your-patience-original-mix-lhama-hipster-records",
   },
   {
     soundcloud_id: 24830286,
@@ -1670,7 +1810,7 @@ export const tracklist: Tracklist = [
     duration_ms: 231506,
     date_added: "2021-03-05T14:32:03.600Z",
     waveform_url: "https://wave.sndcdn.com/nwXmK2PuMqnO_m.png",
-    permalink_url: "https://soundcloud.com/shinydiscoclub/jean-tonique-my-baby"
+    permalink_url: "https://soundcloud.com/shinydiscoclub/jean-tonique-my-baby",
   },
   {
     soundcloud_id: 521023665,
@@ -1679,7 +1819,7 @@ export const tracklist: Tracklist = [
     duration_ms: 187340,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/B7BNjR7p4Kfh_m.png",
-    permalink_url: "https://soundcloud.com/moodsprod/keep-up-1"
+    permalink_url: "https://soundcloud.com/moodsprod/keep-up-1",
   },
   {
     soundcloud_id: 207762072,
@@ -1688,7 +1828,7 @@ export const tracklist: Tracklist = [
     duration_ms: 216078,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/6nH9jCrYf9G7_m.png",
-    permalink_url: "https://soundcloud.com/camino84/summer-love"
+    permalink_url: "https://soundcloud.com/camino84/summer-love",
   },
   {
     soundcloud_id: 575316678,
@@ -1697,7 +1837,7 @@ export const tracklist: Tracklist = [
     duration_ms: 274702,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/JNy1fEIeZ80j_m.png",
-    permalink_url: "https://soundcloud.com/funk-leblanc/real-love"
+    permalink_url: "https://soundcloud.com/funk-leblanc/real-love",
   },
   {
     soundcloud_id: 225965704,
@@ -1706,16 +1846,19 @@ export const tracklist: Tracklist = [
     duration_ms: 404203,
     date_added: "2021-01-25T01:32:02.219Z",
     waveform_url: "https://wave.sndcdn.com/rWuihFzsXmCr_m.png",
-    permalink_url: "https://soundcloud.com/nick-fonkynson/im-so-glad-you-here-fonkynson-edit_freedl"
+    permalink_url:
+      "https://soundcloud.com/nick-fonkynson/im-so-glad-you-here-fonkynson-edit_freedl",
   },
   {
     soundcloud_id: 247527619,
-    title: "Robert Palmer \"Every Kind Of People\" JN Multicultural Multitrack Mix",
+    title:
+      'Robert Palmer "Every Kind Of People" JN Multicultural Multitrack Mix',
     artist: "Dave Lee ZR",
     duration_ms: 212603,
     date_added: "2020-07-13T21:32:05.600Z",
     waveform_url: "https://wave.sndcdn.com/i6gEwiS8hEMS_m.png",
-    permalink_url: "https://soundcloud.com/daveleezr/robert-palmer-every-kind-of-people-jn-multicultural-multitrack-mix"
+    permalink_url:
+      "https://soundcloud.com/daveleezr/robert-palmer-every-kind-of-people-jn-multicultural-multitrack-mix",
   },
   {
     soundcloud_id: 318732884,
@@ -1724,7 +1867,7 @@ export const tracklist: Tracklist = [
     duration_ms: 233216,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/MtQO6BcwcYof_m.png",
-    permalink_url: "https://soundcloud.com/letherette/sweeter-1"
+    permalink_url: "https://soundcloud.com/letherette/sweeter-1",
   },
   {
     soundcloud_id: 209263330,
@@ -1733,7 +1876,8 @@ export const tracklist: Tracklist = [
     duration_ms: 317233,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/lRFjfwaKNRTW_m.png",
-    permalink_url: "https://soundcloud.com/hwangbaxa/wally-badarou-endless-race-baxas-useless-race-edit"
+    permalink_url:
+      "https://soundcloud.com/hwangbaxa/wally-badarou-endless-race-baxas-useless-race-edit",
   },
   {
     soundcloud_id: 323949844,
@@ -1742,7 +1886,8 @@ export const tracklist: Tracklist = [
     duration_ms: 206620,
     date_added: "2020-06-08T04:00:24.666Z",
     waveform_url: "https://wave.sndcdn.com/zDenaZagFxZi_m.png",
-    permalink_url: "https://soundcloud.com/electronicgems/special-q-savoir-faire"
+    permalink_url:
+      "https://soundcloud.com/electronicgems/special-q-savoir-faire",
   },
   {
     soundcloud_id: 501176229,
@@ -1751,16 +1896,18 @@ export const tracklist: Tracklist = [
     duration_ms: 203041,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/oyGIuqn5pwe0_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/hunter-when-im-dreamin"
+    permalink_url: "https://soundcloud.com/clubcoral/hunter-when-im-dreamin",
   },
   {
     soundcloud_id: 522175152,
-    title: "Maze ft. Frankie Beverly - Too Many Games (Get To Know Edit) FREE DL",
+    title:
+      "Maze ft. Frankie Beverly - Too Many Games (Get To Know Edit) FREE DL",
     artist: "Get To Know Edits",
     duration_ms: 418180,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/3RFdtc9Zqpju_m.png",
-    permalink_url: "https://soundcloud.com/gettoknowedits/maze-and-frankie-beverly-too-many-games-gtk-edit"
+    permalink_url:
+      "https://soundcloud.com/gettoknowedits/maze-and-frankie-beverly-too-many-games-gtk-edit",
   },
   {
     soundcloud_id: 154526200,
@@ -1769,7 +1916,7 @@ export const tracklist: Tracklist = [
     duration_ms: 159100,
     date_added: "2020-12-09T02:32:03.839Z",
     waveform_url: "https://wave.sndcdn.com/pIEcTM0iT4vN_m.png",
-    permalink_url: "https://soundcloud.com/autoreverseclub/03-on-n-on"
+    permalink_url: "https://soundcloud.com/autoreverseclub/03-on-n-on",
   },
   {
     soundcloud_id: 570357951,
@@ -1778,7 +1925,7 @@ export const tracklist: Tracklist = [
     duration_ms: 131617,
     date_added: "2020-07-18T14:32:05.705Z",
     waveform_url: "https://wave.sndcdn.com/7W4KfZNDgpvp_m.png",
-    permalink_url: "https://soundcloud.com/discochicmusic/ooh-i-like-it"
+    permalink_url: "https://soundcloud.com/discochicmusic/ooh-i-like-it",
   },
   {
     soundcloud_id: 267358230,
@@ -1787,7 +1934,8 @@ export const tracklist: Tracklist = [
     duration_ms: 260490,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/VcBvW5OH66va_m.png",
-    permalink_url: "https://soundcloud.com/moodsprod/how-i-feel-feat-sam-wills-pre-order-ep-now"
+    permalink_url:
+      "https://soundcloud.com/moodsprod/how-i-feel-feat-sam-wills-pre-order-ep-now",
   },
   {
     soundcloud_id: 173530215,
@@ -1796,7 +1944,7 @@ export const tracklist: Tracklist = [
     duration_ms: 248812,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/9WF2ZyGMqVSL_m.png",
-    permalink_url: "https://soundcloud.com/thump/libano-fernanda-peralta"
+    permalink_url: "https://soundcloud.com/thump/libano-fernanda-peralta",
   },
   {
     soundcloud_id: 237630523,
@@ -1805,7 +1953,8 @@ export const tracklist: Tracklist = [
     duration_ms: 351013,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/HbOeEF2piVvm_m.png",
-    permalink_url: "https://soundcloud.com/brindepice/tatsuro-yamashita-love-talkin-honey-its-you"
+    permalink_url:
+      "https://soundcloud.com/brindepice/tatsuro-yamashita-love-talkin-honey-its-you",
   },
   {
     soundcloud_id: 263228899,
@@ -1814,7 +1963,8 @@ export const tracklist: Tracklist = [
     duration_ms: 234105,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/y7Hqw7QUiwit_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/stereocool-welcome-to-coral-city"
+    permalink_url:
+      "https://soundcloud.com/clubcoral/stereocool-welcome-to-coral-city",
   },
   {
     soundcloud_id: 522865398,
@@ -1823,7 +1973,7 @@ export const tracklist: Tracklist = [
     duration_ms: 188595,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/nNgsN1Tujhd1_m.png",
-    permalink_url: "https://soundcloud.com/bonuspoints/street-tacos"
+    permalink_url: "https://soundcloud.com/bonuspoints/street-tacos",
   },
   {
     soundcloud_id: 559734582,
@@ -1832,7 +1982,8 @@ export const tracklist: Tracklist = [
     duration_ms: 260177,
     date_added: "2020-07-22T11:32:04.275Z",
     waveform_url: "https://wave.sndcdn.com/oj7DSUvyZiCn_m.png",
-    permalink_url: "https://soundcloud.com/escort-records/city-life-premaster-escort-feat-fonda-rae"
+    permalink_url:
+      "https://soundcloud.com/escort-records/city-life-premaster-escort-feat-fonda-rae",
   },
   {
     soundcloud_id: 309149216,
@@ -1841,7 +1992,7 @@ export const tracklist: Tracklist = [
     duration_ms: 183030,
     date_added: "2020-06-08T04:00:24.666Z",
     waveform_url: "https://wave.sndcdn.com/D4kfTuE9Z4RW_m.png",
-    permalink_url: "https://soundcloud.com/caius_official/dont-want-to"
+    permalink_url: "https://soundcloud.com/caius_official/dont-want-to",
   },
   {
     soundcloud_id: 483718233,
@@ -1850,7 +2001,8 @@ export const tracklist: Tracklist = [
     duration_ms: 229559,
     date_added: "2020-05-29T22:07:25.256Z",
     waveform_url: "https://wave.sndcdn.com/D5F3Nc904dkP_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/yazid-le-voyageur-tenderness"
+    permalink_url:
+      "https://soundcloud.com/clubcoral/yazid-le-voyageur-tenderness",
   },
   {
     soundcloud_id: 347635244,
@@ -1859,7 +2011,8 @@ export const tracklist: Tracklist = [
     duration_ms: 192305,
     date_added: "2020-05-29T22:07:08.511Z",
     waveform_url: "https://wave.sndcdn.com/2CJnmJD6Rwno_m.png",
-    permalink_url: "https://soundcloud.com/stonesthrow/nxworries-anderson-paak-knxwledge-best-one-rmx"
+    permalink_url:
+      "https://soundcloud.com/stonesthrow/nxworries-anderson-paak-knxwledge-best-one-rmx",
   },
   {
     soundcloud_id: 538078422,
@@ -1868,7 +2021,7 @@ export const tracklist: Tracklist = [
     duration_ms: 134463,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/pK9NTkzwcn2Q_m.png",
-    permalink_url: "https://soundcloud.com/fibremusic/intro"
+    permalink_url: "https://soundcloud.com/fibremusic/intro",
   },
   {
     soundcloud_id: 269714136,
@@ -1877,7 +2030,8 @@ export const tracklist: Tracklist = [
     duration_ms: 280450,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/lOiEXySwrQ9u_m.png",
-    permalink_url: "https://soundcloud.com/soliterre/i-just-know-that-love-is-gonna-find-you-someday"
+    permalink_url:
+      "https://soundcloud.com/soliterre/i-just-know-that-love-is-gonna-find-you-someday",
   },
   {
     soundcloud_id: 104499164,
@@ -1886,7 +2040,8 @@ export const tracklist: Tracklist = [
     duration_ms: 225953,
     date_added: "2021-02-11T04:32:02.540Z",
     waveform_url: "https://wave.sndcdn.com/WSN7PbBdXKk5_m.png",
-    permalink_url: "https://soundcloud.com/discomotionrecords/thomas-tonfeld-seems-like-reality"
+    permalink_url:
+      "https://soundcloud.com/discomotionrecords/thomas-tonfeld-seems-like-reality",
   },
   {
     soundcloud_id: 875796211,
@@ -1895,7 +2050,8 @@ export const tracklist: Tracklist = [
     duration_ms: 202710,
     date_added: "2021-01-28T17:32:03.077Z",
     waveform_url: "https://wave.sndcdn.com/v23XX18CR9bV_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/basement-love-im-not-alone"
+    permalink_url:
+      "https://soundcloud.com/stratfordct/basement-love-im-not-alone",
   },
   {
     soundcloud_id: 242761397,
@@ -1904,7 +2060,7 @@ export const tracklist: Tracklist = [
     duration_ms: 311095,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/bF3jzj4m3Few_m.png",
-    permalink_url: "https://soundcloud.com/shesaiddisco/falling-in-love"
+    permalink_url: "https://soundcloud.com/shesaiddisco/falling-in-love",
   },
   {
     soundcloud_id: 244851813,
@@ -1913,7 +2069,7 @@ export const tracklist: Tracklist = [
     duration_ms: 305372,
     date_added: "2020-07-14T00:32:06.792Z",
     waveform_url: "https://wave.sndcdn.com/6oscfSAYyUuP_m.png",
-    permalink_url: "https://soundcloud.com/lovebirds/national"
+    permalink_url: "https://soundcloud.com/lovebirds/national",
   },
   {
     soundcloud_id: 315087447,
@@ -1922,7 +2078,7 @@ export const tracklist: Tracklist = [
     duration_ms: 207509,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/D0t77vnU2hPD_m.png",
-    permalink_url: "https://soundcloud.com/thoughts-7/forget-about-me"
+    permalink_url: "https://soundcloud.com/thoughts-7/forget-about-me",
   },
   {
     soundcloud_id: 316432454,
@@ -1931,7 +2087,7 @@ export const tracklist: Tracklist = [
     duration_ms: 277680,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/W2LVcvC24Bj8_m.png",
-    permalink_url: "https://soundcloud.com/discotexas/lovelovelove"
+    permalink_url: "https://soundcloud.com/discotexas/lovelovelove",
   },
   {
     soundcloud_id: 949924690,
@@ -1940,7 +2096,8 @@ export const tracklist: Tracklist = [
     duration_ms: 206080,
     date_added: "2020-12-24T17:32:03.815Z",
     waveform_url: "https://wave.sndcdn.com/j4xa2slCPWYo_m.png",
-    permalink_url: "https://soundcloud.com/sailyard/pictured-resort-frozen-pacific"
+    permalink_url:
+      "https://soundcloud.com/sailyard/pictured-resort-frozen-pacific",
   },
   {
     soundcloud_id: 85966786,
@@ -1949,7 +2106,8 @@ export const tracklist: Tracklist = [
     duration_ms: 274911,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/GkCG5FoQPoPQ_m.png",
-    permalink_url: "https://soundcloud.com/heavy-disco/letranger-slowly-feat-dubwiser"
+    permalink_url:
+      "https://soundcloud.com/heavy-disco/letranger-slowly-feat-dubwiser",
   },
   {
     soundcloud_id: 166219916,
@@ -1958,7 +2116,7 @@ export const tracklist: Tracklist = [
     duration_ms: 235280,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/llHZ63YDO7qx_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/isaac-galvez-sable"
+    permalink_url: "https://soundcloud.com/stratfordct/isaac-galvez-sable",
   },
   {
     soundcloud_id: 226282842,
@@ -1967,7 +2125,8 @@ export const tracklist: Tracklist = [
     duration_ms: 192096,
     date_added: "2021-01-28T17:32:03.077Z",
     waveform_url: "https://wave.sndcdn.com/C9KurdraGgCA_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/18-sovate-without-you-master"
+    permalink_url:
+      "https://soundcloud.com/stratfordct/18-sovate-without-you-master",
   },
   {
     soundcloud_id: 701624083,
@@ -1976,7 +2135,8 @@ export const tracklist: Tracklist = [
     duration_ms: 223321,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/ZQ2SNe1yvMz5_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/special-q-reach-the-top-secret-selection"
+    permalink_url:
+      "https://soundcloud.com/stratfordct/special-q-reach-the-top-secret-selection",
   },
   {
     soundcloud_id: 289037451,
@@ -1985,7 +2145,7 @@ export const tracklist: Tracklist = [
     duration_ms: 231073,
     date_added: "2020-07-13T21:32:05.600Z",
     waveform_url: "https://wave.sndcdn.com/SVnYHvbSOcxA_m.png",
-    permalink_url: "https://soundcloud.com/cherokee-official/love-your-days"
+    permalink_url: "https://soundcloud.com/cherokee-official/love-your-days",
   },
   {
     soundcloud_id: 158458781,
@@ -1994,7 +2154,7 @@ export const tracklist: Tracklist = [
     duration_ms: 200456,
     date_added: "2021-01-09T23:32:02.848Z",
     waveform_url: "https://wave.sndcdn.com/0eibSJ9g7Q0U_m.png",
-    permalink_url: "https://soundcloud.com/kruzader/sunshine"
+    permalink_url: "https://soundcloud.com/kruzader/sunshine",
   },
   {
     soundcloud_id: 340283506,
@@ -2003,7 +2163,7 @@ export const tracklist: Tracklist = [
     duration_ms: 476178,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/ACNwOtxDTB9K_m.png",
-    permalink_url: "https://soundcloud.com/fresure/maria-takeuchi-plastic-love"
+    permalink_url: "https://soundcloud.com/fresure/maria-takeuchi-plastic-love",
   },
   {
     soundcloud_id: 228081685,
@@ -2012,7 +2172,8 @@ export const tracklist: Tracklist = [
     duration_ms: 249021,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/90NrPOiMhsDp_m.png",
-    permalink_url: "https://soundcloud.com/l-imperatrice/l-imperatrice_agitations-tropicales"
+    permalink_url:
+      "https://soundcloud.com/l-imperatrice/l-imperatrice_agitations-tropicales",
   },
   {
     soundcloud_id: 502855242,
@@ -2021,7 +2182,7 @@ export const tracklist: Tracklist = [
     duration_ms: 226346,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/zDqsawoWCrTh_m.png",
-    permalink_url: "https://soundcloud.com/150919/finesse-ferrer"
+    permalink_url: "https://soundcloud.com/150919/finesse-ferrer",
   },
   {
     soundcloud_id: 226282915,
@@ -2030,7 +2191,8 @@ export const tracklist: Tracklist = [
     duration_ms: 329826,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/HC56MEjOzKLU_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/09-oscar-bandersen-arrogance"
+    permalink_url:
+      "https://soundcloud.com/stratfordct/09-oscar-bandersen-arrogance",
   },
   {
     soundcloud_id: 857959906,
@@ -2039,7 +2201,8 @@ export const tracklist: Tracklist = [
     duration_ms: 157127,
     date_added: "2020-07-18T14:32:05.705Z",
     waveform_url: "https://wave.sndcdn.com/iFdBUWgnteKs_m.png",
-    permalink_url: "https://soundcloud.com/whaleisland/aint-nobody-straight-in-la"
+    permalink_url:
+      "https://soundcloud.com/whaleisland/aint-nobody-straight-in-la",
   },
   {
     soundcloud_id: 308404906,
@@ -2048,7 +2211,7 @@ export const tracklist: Tracklist = [
     duration_ms: 202780,
     date_added: "2020-08-05T15:32:04.094Z",
     waveform_url: "https://wave.sndcdn.com/yG8QqzjpCqnQ_m.png",
-    permalink_url: "https://soundcloud.com/bonuspoints/island-getaway"
+    permalink_url: "https://soundcloud.com/bonuspoints/island-getaway",
   },
   {
     soundcloud_id: 98419296,
@@ -2057,7 +2220,8 @@ export const tracklist: Tracklist = [
     duration_ms: 213779,
     date_added: "2020-06-04T19:40:16.660Z",
     waveform_url: "https://wave.sndcdn.com/YjdVhcgcWvUP_m.png",
-    permalink_url: "https://soundcloud.com/weareloveonthebeat/we-run-original-edit"
+    permalink_url:
+      "https://soundcloud.com/weareloveonthebeat/we-run-original-edit",
   },
   {
     soundcloud_id: 569407002,
@@ -2066,7 +2230,8 @@ export const tracklist: Tracklist = [
     duration_ms: 169315,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/mtbPUXkoqdfV_m.png",
-    permalink_url: "https://soundcloud.com/sparkly_night/sparkly-night-out-of-my-mind"
+    permalink_url:
+      "https://soundcloud.com/sparkly_night/sparkly-night-out-of-my-mind",
   },
   {
     soundcloud_id: 294728346,
@@ -2075,7 +2240,8 @@ export const tracklist: Tracklist = [
     duration_ms: 201605,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/3OstNpVfRBGV_m.png",
-    permalink_url: "https://soundcloud.com/jeantonique/un-reve-a-deux-feat-bleu-platine"
+    permalink_url:
+      "https://soundcloud.com/jeantonique/un-reve-a-deux-feat-bleu-platine",
   },
   {
     soundcloud_id: 334925794,
@@ -2084,7 +2250,7 @@ export const tracklist: Tracklist = [
     duration_ms: 200769,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/6aV04ec1PRuL_m.png",
-    permalink_url: "https://soundcloud.com/roisto/no-regrets"
+    permalink_url: "https://soundcloud.com/roisto/no-regrets",
   },
   {
     soundcloud_id: 553075842,
@@ -2093,7 +2259,7 @@ export const tracklist: Tracklist = [
     duration_ms: 162443,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/A6FQtTB9jFWT_m.png",
-    permalink_url: "https://soundcloud.com/flamingosis/right-as-rain-1"
+    permalink_url: "https://soundcloud.com/flamingosis/right-as-rain-1",
   },
   {
     soundcloud_id: 346403123,
@@ -2102,7 +2268,7 @@ export const tracklist: Tracklist = [
     duration_ms: 292963,
     date_added: "2021-02-01T03:32:02.972Z",
     waveform_url: "https://wave.sndcdn.com/Ty3lWBcJlYB8_m.png",
-    permalink_url: "https://soundcloud.com/cherokee-official/end-of-summer"
+    permalink_url: "https://soundcloud.com/cherokee-official/end-of-summer",
   },
   {
     soundcloud_id: 650193119,
@@ -2111,7 +2277,8 @@ export const tracklist: Tracklist = [
     duration_ms: 327397,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/GAwMvApyozfC_m.png",
-    permalink_url: "https://soundcloud.com/vyacheslav-zhuk/sirs-shit-4-in-the-morning-original-version-mixed-by-lovebirds-wwwmp3cutru"
+    permalink_url:
+      "https://soundcloud.com/vyacheslav-zhuk/sirs-shit-4-in-the-morning-original-version-mixed-by-lovebirds-wwwmp3cutru",
   },
   {
     soundcloud_id: 125113414,
@@ -2120,7 +2287,8 @@ export const tracklist: Tracklist = [
     duration_ms: 230630,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/M9VgDqguHtyP_m.png",
-    permalink_url: "https://soundcloud.com/mixmag-1/download-crystal-bats-falling"
+    permalink_url:
+      "https://soundcloud.com/mixmag-1/download-crystal-bats-falling",
   },
   {
     soundcloud_id: 224474792,
@@ -2129,7 +2297,8 @@ export const tracklist: Tracklist = [
     duration_ms: 255527,
     date_added: "2020-05-29T22:15:36.737Z",
     waveform_url: "https://wave.sndcdn.com/6E1ttcW91jxe_m.png",
-    permalink_url: "https://soundcloud.com/edbangerrecords/breakbot-back-for-more"
+    permalink_url:
+      "https://soundcloud.com/edbangerrecords/breakbot-back-for-more",
   },
   {
     soundcloud_id: 595928946,
@@ -2138,7 +2307,8 @@ export const tracklist: Tracklist = [
     duration_ms: 382259,
     date_added: "2021-10-19T11:32:02.454Z",
     waveform_url: "https://wave.sndcdn.com/2f0JM5NB6O49_m.png",
-    permalink_url: "https://soundcloud.com/kenneth-walker-33/kenwork-lifes-kiss"
+    permalink_url:
+      "https://soundcloud.com/kenneth-walker-33/kenwork-lifes-kiss",
   },
   {
     soundcloud_id: 857646445,
@@ -2147,7 +2317,7 @@ export const tracklist: Tracklist = [
     duration_ms: 393326,
     date_added: "2020-07-18T14:32:05.705Z",
     waveform_url: "https://wave.sndcdn.com/j8IFY6glcRu0_m.png",
-    permalink_url: "https://soundcloud.com/walkofsound/valique-doin-me"
+    permalink_url: "https://soundcloud.com/walkofsound/valique-doin-me",
   },
   {
     soundcloud_id: 127830443,
@@ -2156,7 +2326,7 @@ export const tracklist: Tracklist = [
     duration_ms: 308063,
     date_added: "2021-02-27T01:32:02.405Z",
     waveform_url: "https://wave.sndcdn.com/f6sETKtLAyoT_m.png",
-    permalink_url: "https://soundcloud.com/_jackie/every-morning-weekly01"
+    permalink_url: "https://soundcloud.com/_jackie/every-morning-weekly01",
   },
   {
     soundcloud_id: 204125358,
@@ -2165,7 +2335,8 @@ export const tracklist: Tracklist = [
     duration_ms: 480149,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/w5OnpCgD5vQQ_m.png",
-    permalink_url: "https://soundcloud.com/late-nite-tuff-guy/go-4-that-lntg-remix"
+    permalink_url:
+      "https://soundcloud.com/late-nite-tuff-guy/go-4-that-lntg-remix",
   },
   {
     soundcloud_id: 231700522,
@@ -2174,7 +2345,8 @@ export const tracklist: Tracklist = [
     duration_ms: 161295,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/JUKBoptHs6eT_m.png",
-    permalink_url: "https://soundcloud.com/danmason420/dan-mason-x-aritus-kensaku-love"
+    permalink_url:
+      "https://soundcloud.com/danmason420/dan-mason-x-aritus-kensaku-love",
   },
   {
     soundcloud_id: 16594624,
@@ -2183,7 +2355,7 @@ export const tracklist: Tracklist = [
     duration_ms: 312778,
     date_added: "2020-07-13T21:32:05.600Z",
     waveform_url: "https://wave.sndcdn.com/aI9G00TKflAr_m.png",
-    permalink_url: "https://soundcloud.com/cherokee-official/sable-doux"
+    permalink_url: "https://soundcloud.com/cherokee-official/sable-doux",
   },
   {
     soundcloud_id: 334851958,
@@ -2192,7 +2364,7 @@ export const tracklist: Tracklist = [
     duration_ms: 231205,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/LC00bZEtviBi_m.png",
-    permalink_url: "https://soundcloud.com/soliterre/question-of-faith"
+    permalink_url: "https://soundcloud.com/soliterre/question-of-faith",
   },
   {
     soundcloud_id: 1125089851,
@@ -2201,7 +2373,7 @@ export const tracklist: Tracklist = [
     duration_ms: 249496,
     date_added: "2021-09-20T17:22:37.415Z",
     waveform_url: "https://wave.sndcdn.com/9Ro8PIQZPleG_m.png",
-    permalink_url: "https://soundcloud.com/future-disco/bondax-dont-want-it"
+    permalink_url: "https://soundcloud.com/future-disco/bondax-dont-want-it",
   },
   {
     soundcloud_id: 483719919,
@@ -2210,7 +2382,7 @@ export const tracklist: Tracklist = [
     duration_ms: 277655,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/N74oI62y9w3j_m.png",
-    permalink_url: "https://soundcloud.com/clubcoral/hunter-falling-for-you"
+    permalink_url: "https://soundcloud.com/clubcoral/hunter-falling-for-you",
   },
   {
     soundcloud_id: 516425244,
@@ -2219,7 +2391,8 @@ export const tracklist: Tracklist = [
     duration_ms: 219892,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/A36ke9ZRx0wC_m.png",
-    permalink_url: "https://soundcloud.com/elektricdreams/saint-pepsi-skylar-spence-ed-remake"
+    permalink_url:
+      "https://soundcloud.com/elektricdreams/saint-pepsi-skylar-spence-ed-remake",
   },
   {
     soundcloud_id: 237862249,
@@ -2228,7 +2401,7 @@ export const tracklist: Tracklist = [
     duration_ms: 293642,
     date_added: "2021-08-13T17:32:02.834Z",
     waveform_url: "https://wave.sndcdn.com/xLJb5WkY3SmZ_m.png",
-    permalink_url: "https://soundcloud.com/fig-edits/lover-in-u"
+    permalink_url: "https://soundcloud.com/fig-edits/lover-in-u",
   },
   {
     soundcloud_id: 331138504,
@@ -2237,7 +2410,7 @@ export const tracklist: Tracklist = [
     duration_ms: 238467,
     date_added: "2020-05-29T22:07:08.511Z",
     waveform_url: "https://wave.sndcdn.com/ab0kIPr72Nwh_m.png",
-    permalink_url: "https://soundcloud.com/sunrise-collective/eye-candy"
+    permalink_url: "https://soundcloud.com/sunrise-collective/eye-candy",
   },
   {
     soundcloud_id: 232269516,
@@ -2246,7 +2419,8 @@ export const tracklist: Tracklist = [
     duration_ms: 275199,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/XeqX5g8wIwPr_m.png",
-    permalink_url: "https://soundcloud.com/funk-leblanc/jessi-malay-summer-love-funk-leblanc-remix"
+    permalink_url:
+      "https://soundcloud.com/funk-leblanc/jessi-malay-summer-love-funk-leblanc-remix",
   },
   {
     soundcloud_id: 282143103,
@@ -2255,7 +2429,8 @@ export const tracklist: Tracklist = [
     duration_ms: 295680,
     date_added: "2020-05-29T22:05:10.485Z",
     waveform_url: "https://wave.sndcdn.com/CiKrHMoYAK0a_m.png",
-    permalink_url: "https://soundcloud.com/keats-collective/solitaire-summer-friend-double-life-out-fall-2016"
+    permalink_url:
+      "https://soundcloud.com/keats-collective/solitaire-summer-friend-double-life-out-fall-2016",
   },
   {
     soundcloud_id: 315419807,
@@ -2264,7 +2439,7 @@ export const tracklist: Tracklist = [
     duration_ms: 187916,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/VwiV6FH7yEqS_m.png",
-    permalink_url: "https://soundcloud.com/bonuspoints/circa-1980"
+    permalink_url: "https://soundcloud.com/bonuspoints/circa-1980",
   },
   {
     soundcloud_id: 1018684078,
@@ -2273,7 +2448,7 @@ export const tracklist: Tracklist = [
     duration_ms: 232803,
     date_added: "2021-06-29T19:32:03.115Z",
     waveform_url: "https://wave.sndcdn.com/nBRE59SfMI1S_m.png",
-    permalink_url: "https://soundcloud.com/philfromhavea/honey-remix"
+    permalink_url: "https://soundcloud.com/philfromhavea/honey-remix",
   },
   {
     soundcloud_id: 99810063,
@@ -2282,7 +2457,8 @@ export const tracklist: Tracklist = [
     duration_ms: 430641,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/AGqLhJjygImN_m.png",
-    permalink_url: "https://soundcloud.com/thereflex/rock-with-you-o-the-reflex-1"
+    permalink_url:
+      "https://soundcloud.com/thereflex/rock-with-you-o-the-reflex-1",
   },
   {
     soundcloud_id: 895491994,
@@ -2291,7 +2467,7 @@ export const tracklist: Tracklist = [
     duration_ms: 163527,
     date_added: "2020-10-01T14:32:03.165Z",
     waveform_url: "https://wave.sndcdn.com/p09f3U5Uoohe_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/sovate-in-my-heart"
+    permalink_url: "https://soundcloud.com/stratfordct/sovate-in-my-heart",
   },
   {
     soundcloud_id: 15133782,
@@ -2300,7 +2476,8 @@ export const tracklist: Tracklist = [
     duration_ms: 498658,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/aORvIWo2Wbs5_m.png",
-    permalink_url: "https://soundcloud.com/steedownes/want-you-in-my-soul-original"
+    permalink_url:
+      "https://soundcloud.com/steedownes/want-you-in-my-soul-original",
   },
   {
     soundcloud_id: 570541752,
@@ -2309,7 +2486,8 @@ export const tracklist: Tracklist = [
     duration_ms: 350778,
     date_added: "2020-05-30T22:51:43.559Z",
     waveform_url: "https://wave.sndcdn.com/cJo9yBoSXG9n_m.png",
-    permalink_url: "https://soundcloud.com/jacktennis/gwen-mccrea-hey-world-jack-tennis-edit"
+    permalink_url:
+      "https://soundcloud.com/jacktennis/gwen-mccrea-hey-world-jack-tennis-edit",
   },
   {
     soundcloud_id: 200047370,
@@ -2318,7 +2496,7 @@ export const tracklist: Tracklist = [
     duration_ms: 306130,
     date_added: "2020-05-29T22:12:59.128Z",
     waveform_url: "https://wave.sndcdn.com/m4sHBjJJvwyQ_m.png",
-    permalink_url: "https://soundcloud.com/nanuqmusique/ill-make-you-love-me"
+    permalink_url: "https://soundcloud.com/nanuqmusique/ill-make-you-love-me",
   },
   {
     soundcloud_id: 837766930,
@@ -2327,7 +2505,7 @@ export const tracklist: Tracklist = [
     duration_ms: 244402,
     date_added: "2020-06-14T12:32:05.790Z",
     waveform_url: "https://wave.sndcdn.com/HyLNjUrU9fng_m.png",
-    permalink_url: "https://soundcloud.com/huntersounds90/joy-happiness"
+    permalink_url: "https://soundcloud.com/huntersounds90/joy-happiness",
   },
   {
     soundcloud_id: 748159360,
@@ -2336,16 +2514,18 @@ export const tracklist: Tracklist = [
     duration_ms: 129202,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/5hdj1NlwgHIs_m.png",
-    permalink_url: "https://soundcloud.com/engelwoodmusic/need-somebody-feat-iamalex"
+    permalink_url:
+      "https://soundcloud.com/engelwoodmusic/need-somebody-feat-iamalex",
   },
   {
     soundcloud_id: 149293324,
-    title: "\"In Love With You\" (Re-edit)- The Paradise (Alan Braxe & Romuald)",
+    title: '"In Love With You" (Re-edit)- The Paradise (Alan Braxe & Romuald)',
     artist: "mlchr",
     duration_ms: 330583,
     date_added: "2020-08-31T18:32:03.783Z",
     waveform_url: "https://wave.sndcdn.com/kjnOEsSOB0on_m.png",
-    permalink_url: "https://soundcloud.com/mlchr/in-love-with-you-re-edit-the-paradise-alan-braxe-romuald"
+    permalink_url:
+      "https://soundcloud.com/mlchr/in-love-with-you-re-edit-the-paradise-alan-braxe-romuald",
   },
   {
     soundcloud_id: 698175967,
@@ -2354,7 +2534,7 @@ export const tracklist: Tracklist = [
     duration_ms: 228180,
     date_added: "2020-07-12T07:32:06.370Z",
     waveform_url: "https://wave.sndcdn.com/F0TtiS0nJF5Z_m.png",
-    permalink_url: "https://soundcloud.com/kraaksmaak/in-plain-sight-feat-ivar"
+    permalink_url: "https://soundcloud.com/kraaksmaak/in-plain-sight-feat-ivar",
   },
   {
     soundcloud_id: 768023425,
@@ -2363,7 +2543,7 @@ export const tracklist: Tracklist = [
     duration_ms: 231314,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/aJcLQRSiuLOm_m.png",
-    permalink_url: "https://soundcloud.com/finaldjs/final-djs-everyone"
+    permalink_url: "https://soundcloud.com/finaldjs/final-djs-everyone",
   },
   {
     soundcloud_id: 430204233,
@@ -2372,7 +2552,8 @@ export const tracklist: Tracklist = [
     duration_ms: 351327,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/mygrzBXQ3LXe_m.png",
-    permalink_url: "https://soundcloud.com/starcreature/hotmood-dont-let-me-fall-hotmood-volume-7"
+    permalink_url:
+      "https://soundcloud.com/starcreature/hotmood-dont-let-me-fall-hotmood-volume-7",
   },
   {
     soundcloud_id: 658123028,
@@ -2381,7 +2562,7 @@ export const tracklist: Tracklist = [
     duration_ms: 111945,
     date_added: "2020-05-29T22:11:04.105Z",
     waveform_url: "https://wave.sndcdn.com/YdwusdKqPxuS_m.png",
-    permalink_url: "https://soundcloud.com/sweepsbeats/what-im-giving-you"
+    permalink_url: "https://soundcloud.com/sweepsbeats/what-im-giving-you",
   },
   {
     soundcloud_id: 410588643,
@@ -2390,7 +2571,7 @@ export const tracklist: Tracklist = [
     duration_ms: 349185,
     date_added: "2020-05-29T22:07:25.256Z",
     waveform_url: "https://wave.sndcdn.com/STAEHIznRQXJ_m.png",
-    permalink_url: "https://soundcloud.com/electropicales/agrume-lermitage"
+    permalink_url: "https://soundcloud.com/electropicales/agrume-lermitage",
   },
   {
     soundcloud_id: 312549582,
@@ -2399,7 +2580,7 @@ export const tracklist: Tracklist = [
     duration_ms: 147448,
     date_added: "2020-05-29T22:05:35.118Z",
     waveform_url: "https://wave.sndcdn.com/qdrpwnWmLQsG_m.png",
-    permalink_url: "https://soundcloud.com/flamingosis/ecstasy-pay-the-price"
+    permalink_url: "https://soundcloud.com/flamingosis/ecstasy-pay-the-price",
   },
   {
     soundcloud_id: 125452512,
@@ -2408,7 +2589,7 @@ export const tracklist: Tracklist = [
     duration_ms: 75370,
     date_added: "2020-05-29T22:04:23.842Z",
     waveform_url: "https://wave.sndcdn.com/UT19qQCv86P0_m.png",
-    permalink_url: "https://soundcloud.com/espritfantasy/esprit-esprit"
+    permalink_url: "https://soundcloud.com/espritfantasy/esprit-esprit",
   },
   {
     soundcloud_id: 1010328898,
@@ -2417,16 +2598,18 @@ export const tracklist: Tracklist = [
     duration_ms: 229277,
     date_added: "2021-03-28T15:32:03.418Z",
     waveform_url: "https://wave.sndcdn.com/mQnBjvH5HCgG_m.png",
-    permalink_url: "https://soundcloud.com/nowadays-records/grand-soleil-alma-2"
+    permalink_url:
+      "https://soundcloud.com/nowadays-records/grand-soleil-alma-2",
   },
   {
     soundcloud_id: 225453110,
     title: "George Duke - Reach Out (Dj ''S'' Remix)",
-    artist: "Dj \"S\"",
+    artist: 'Dj "S"',
     duration_ms: 276243,
     date_added: "2020-05-29T22:15:58.528Z",
     waveform_url: "https://wave.sndcdn.com/nWSURR8xVVXv_m.png",
-    permalink_url: "https://soundcloud.com/deejay-stathis/george-duke-reach-out-dj-s-bootleg-remix"
+    permalink_url:
+      "https://soundcloud.com/deejay-stathis/george-duke-reach-out-dj-s-bootleg-remix",
   },
   {
     soundcloud_id: 315179588,
@@ -2435,7 +2618,7 @@ export const tracklist: Tracklist = [
     duration_ms: 244423,
     date_added: "2020-05-30T22:51:43.559Z",
     waveform_url: "https://wave.sndcdn.com/0D7s0yCpK8vq_m.png",
-    permalink_url: "https://soundcloud.com/thisislebron/lebron-lonely-people"
+    permalink_url: "https://soundcloud.com/thisislebron/lebron-lonely-people",
   },
   {
     soundcloud_id: 653101163,
@@ -2444,7 +2627,8 @@ export const tracklist: Tracklist = [
     duration_ms: 316162,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/4eb6jaBjbhiE_m.png",
-    permalink_url: "https://soundcloud.com/bonfirerecords/fancy-feelings-ture-bliss-feat-ria"
+    permalink_url:
+      "https://soundcloud.com/bonfirerecords/fancy-feelings-ture-bliss-feat-ria",
   },
   {
     soundcloud_id: 950168848,
@@ -2453,7 +2637,8 @@ export const tracklist: Tracklist = [
     duration_ms: 324441,
     date_added: "2020-12-19T16:32:04.495Z",
     waveform_url: "https://wave.sndcdn.com/G9iZeTkrShF1_m.png",
-    permalink_url: "https://soundcloud.com/tonbe/tonbe-live-my-life-only-on-bandcamp"
+    permalink_url:
+      "https://soundcloud.com/tonbe/tonbe-live-my-life-only-on-bandcamp",
   },
   {
     soundcloud_id: 676557455,
@@ -2462,7 +2647,7 @@ export const tracklist: Tracklist = [
     duration_ms: 203408,
     date_added: "2020-05-29T22:13:09.529Z",
     waveform_url: "https://wave.sndcdn.com/zciS1biS9LUl_m.png",
-    permalink_url: "https://soundcloud.com/winstonsurfshirt/smile"
+    permalink_url: "https://soundcloud.com/winstonsurfshirt/smile",
   },
   {
     soundcloud_id: 74445536,
@@ -2471,7 +2656,8 @@ export const tracklist: Tracklist = [
     duration_ms: 215190,
     date_added: "2020-07-18T13:32:06.032Z",
     waveform_url: "https://wave.sndcdn.com/H3i8jkZJSE9W_m.png",
-    permalink_url: "https://soundcloud.com/codework/pacific-hold-me-breakbot-remix"
+    permalink_url:
+      "https://soundcloud.com/codework/pacific-hold-me-breakbot-remix",
   },
   {
     soundcloud_id: 309365923,
@@ -2480,7 +2666,7 @@ export const tracklist: Tracklist = [
     duration_ms: 300436,
     date_added: "2020-05-29T22:13:47.377Z",
     waveform_url: "https://wave.sndcdn.com/5kCDQikd0mos_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/special-q-rusty-club"
+    permalink_url: "https://soundcloud.com/stratfordct/special-q-rusty-club",
   },
   {
     soundcloud_id: 653306384,
@@ -2489,7 +2675,8 @@ export const tracklist: Tracklist = [
     duration_ms: 84512,
     date_added: "2020-05-29T22:10:51.399Z",
     waveform_url: "https://wave.sndcdn.com/Ec4yKDCLBprq_m.png",
-    permalink_url: "https://soundcloud.com/tuxedofunk/gabriels-groove-feat-gabriel-garzon-montano"
+    permalink_url:
+      "https://soundcloud.com/tuxedofunk/gabriels-groove-feat-gabriel-garzon-montano",
   },
   {
     soundcloud_id: 882403954,
@@ -2498,7 +2685,8 @@ export const tracklist: Tracklist = [
     duration_ms: 347220,
     date_added: "2020-08-31T18:32:03.783Z",
     waveform_url: "https://wave.sndcdn.com/g8Cs0RlgWLCn_m.png",
-    permalink_url: "https://soundcloud.com/tonbe/toni-braxton-dance-loshmi-edit-free-download"
+    permalink_url:
+      "https://soundcloud.com/tonbe/toni-braxton-dance-loshmi-edit-free-download",
   },
   {
     soundcloud_id: 251978582,
@@ -2507,7 +2695,7 @@ export const tracklist: Tracklist = [
     duration_ms: 168060,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/1F5DQMkI6Yu6_m.png",
-    permalink_url: "https://soundcloud.com/basementlove/itsoveredit"
+    permalink_url: "https://soundcloud.com/basementlove/itsoveredit",
   },
   {
     soundcloud_id: 196910075,
@@ -2516,7 +2704,7 @@ export const tracklist: Tracklist = [
     duration_ms: 160771,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/8n2mN24WxrAV_m.png",
-    permalink_url: "https://soundcloud.com/ou-sont-les-filles/parisienne"
+    permalink_url: "https://soundcloud.com/ou-sont-les-filles/parisienne",
   },
   {
     soundcloud_id: 586388856,
@@ -2525,7 +2713,7 @@ export const tracklist: Tracklist = [
     duration_ms: 249543,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/wDV9fpQEcQBJ_m.png",
-    permalink_url: "https://soundcloud.com/discoholicmusic/melonaderemix"
+    permalink_url: "https://soundcloud.com/discoholicmusic/melonaderemix",
   },
   {
     soundcloud_id: 687777079,
@@ -2534,7 +2722,8 @@ export const tracklist: Tracklist = [
     duration_ms: 190083,
     date_added: "2020-05-29T22:13:35.357Z",
     waveform_url: "https://wave.sndcdn.com/b97EKXkZpsog_m.png",
-    permalink_url: "https://soundcloud.com/toucansounds/jean-tonique-pink-flamingo-rhythm-revue-flawless-feat-adeline-out-1022"
+    permalink_url:
+      "https://soundcloud.com/toucansounds/jean-tonique-pink-flamingo-rhythm-revue-flawless-feat-adeline-out-1022",
   },
   {
     soundcloud_id: 445712631,
@@ -2543,7 +2732,7 @@ export const tracklist: Tracklist = [
     duration_ms: 250092,
     date_added: "2021-08-13T17:32:02.834Z",
     waveform_url: "https://wave.sndcdn.com/kpDYN6eWwy4p_m.png",
-    permalink_url: "https://soundcloud.com/ndyd-records/her-life"
+    permalink_url: "https://soundcloud.com/ndyd-records/her-life",
   },
   {
     soundcloud_id: 237180228,
@@ -2552,7 +2741,7 @@ export const tracklist: Tracklist = [
     duration_ms: 295550,
     date_added: "2021-05-29T15:32:02.716Z",
     waveform_url: "https://wave.sndcdn.com/lBbaVKJi74lF_m.png",
-    permalink_url: "https://soundcloud.com/hokanson/sex-wax"
+    permalink_url: "https://soundcloud.com/hokanson/sex-wax",
   },
   {
     soundcloud_id: 497944008,
@@ -2561,7 +2750,8 @@ export const tracklist: Tracklist = [
     duration_ms: 213388,
     date_added: "2020-06-08T04:00:24.666Z",
     waveform_url: "https://wave.sndcdn.com/m7kDlVyjGZwy_m.png",
-    permalink_url: "https://soundcloud.com/cascine/yumi-zouma-crush-its-late-just-stay"
+    permalink_url:
+      "https://soundcloud.com/cascine/yumi-zouma-crush-its-late-just-stay",
   },
   {
     soundcloud_id: 735890089,
@@ -2570,7 +2760,8 @@ export const tracklist: Tracklist = [
     duration_ms: 186096,
     date_added: "2020-06-01T22:52:13.376Z",
     waveform_url: "https://wave.sndcdn.com/7PippJMGxBCU_m.png",
-    permalink_url: "https://soundcloud.com/valentin-marlin/angele-oui-ou-non-marlin-remix"
+    permalink_url:
+      "https://soundcloud.com/valentin-marlin/angele-oui-ou-non-marlin-remix",
   },
   {
     soundcloud_id: 215783777,
@@ -2579,7 +2770,7 @@ export const tracklist: Tracklist = [
     duration_ms: 176080,
     date_added: "2020-05-29T22:04:52.057Z",
     waveform_url: "https://wave.sndcdn.com/8ISsThOSsARY_m.png",
-    permalink_url: "https://soundcloud.com/theaquacola/nightdriving"
+    permalink_url: "https://soundcloud.com/theaquacola/nightdriving",
   },
   {
     soundcloud_id: 493353036,
@@ -2588,7 +2779,8 @@ export const tracklist: Tracklist = [
     duration_ms: 189430,
     date_added: "2020-05-29T22:08:41.238Z",
     waveform_url: "https://wave.sndcdn.com/2NMwGxcI8Dn0_m.png",
-    permalink_url: "https://soundcloud.com/stratfordct/leinart-sunset-rises-secret-selection"
+    permalink_url:
+      "https://soundcloud.com/stratfordct/leinart-sunset-rises-secret-selection",
   },
   {
     soundcloud_id: 536279607,
@@ -2597,7 +2789,8 @@ export const tracklist: Tracklist = [
     duration_ms: 351797,
     date_added: "2020-05-29T22:10:30.161Z",
     waveform_url: "https://wave.sndcdn.com/bVJjmwyHr1NU_m.png",
-    permalink_url: "https://soundcloud.com/gettoknowedits/disciples-on-my-mind-get-to-know-futureboogie-remix"
+    permalink_url:
+      "https://soundcloud.com/gettoknowedits/disciples-on-my-mind-get-to-know-futureboogie-remix",
   },
   {
     soundcloud_id: 897085624,
@@ -2606,7 +2799,8 @@ export const tracklist: Tracklist = [
     duration_ms: 203337,
     date_added: "2020-11-10T01:32:02.570Z",
     waveform_url: "https://wave.sndcdn.com/xJZgAhj7AKcE_m.png",
-    permalink_url: "https://soundcloud.com/finaldjs/final-djs-magic-free-download"
+    permalink_url:
+      "https://soundcloud.com/finaldjs/final-djs-magic-free-download",
   },
   {
     soundcloud_id: 758661775,
@@ -2615,7 +2809,8 @@ export const tracklist: Tracklist = [
     duration_ms: 248738,
     date_added: "2020-05-29T22:15:13.905Z",
     waveform_url: "https://wave.sndcdn.com/ohOQNMIqBQAS_m.png",
-    permalink_url: "https://soundcloud.com/limonlimonmusic/believing-in-yesterday-lafelix-remix"
+    permalink_url:
+      "https://soundcloud.com/limonlimonmusic/believing-in-yesterday-lafelix-remix",
   },
   {
     soundcloud_id: 1080313909,
@@ -2624,19 +2819,20 @@ export const tracklist: Tracklist = [
     duration_ms: 475742,
     date_added: "2021-07-07T09:32:03.484Z",
     waveform_url: "https://wave.sndcdn.com/47OZjI1rNeIg_m.png",
-    permalink_url: "https://soundcloud.com/funkingham/run-to-me-pimpin-willie-soulful-house-mix-1"
-  }
-]
+    permalink_url:
+      "https://soundcloud.com/funkingham/run-to-me-pimpin-willie-soulful-house-mix-1",
+  },
+];
 
 export const playlists: Playlist[] = [
-  { 
+  {
     id: 1,
-    name: 'Poolsuite FM',
-    tracks: tracklist
+    name: "Poolsuite FM",
+    tracks: tracklist,
   },
   {
     id: 2,
-    name: 'Next FM',
-    tracks: nextFM
-  }
+    name: "Next FM",
+    tracks: nextFM,
+  },
 ];

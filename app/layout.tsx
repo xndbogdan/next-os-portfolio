@@ -8,9 +8,7 @@ export const metadata: Metadata = {
   title: "Next OS - My Portfolio",
   description: "My web development portfolio",
   applicationName: "Next OS",
-  authors: [
-    { name: "Bogdan-Mihai Mosteanu" },
-  ],
+  authors: [{ name: "Bogdan-Mihai Mosteanu" }],
   keywords: [
     "Bogdan",
     "independent developer",
@@ -28,7 +26,7 @@ export const metadata: Metadata = {
     "mobile device",
     "desktop icons",
     "business inquiries",
-    "bogdan.mosteanu@hey.com"
+    "bogdan.mosteanu@hey.com",
   ],
   metadataBase: new URL("https://nextos.dev"),
 };
@@ -42,7 +40,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} ${defaultStyles}`}>
         {children}
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "267f5874766e4d1b960a1ce9183bc200"}'></script>
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "267f5874766e4d1b960a1ce9183bc200"}'
+        ></script>
       </body>
     </html>
   );
